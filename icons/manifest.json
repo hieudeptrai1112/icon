@@ -1,0 +1,44 @@
+[
+  {
+    "name": "action-close",
+    "file": "ic-action-close.svg",
+    "exportName": "ActionCloseIcon",
+    "viewBox": "0 0 24 24",
+    "category": "action"
+  },
+  {
+    "name": "action-edit",
+    "file": "ic-action-edit.svg",
+    "exportName": "ActionEditIcon",
+    "viewBox": "0 0 24 24",
+    "category": "action"
+  },
+  {
+    "name": "action-plus",
+    "file": "ic-action-plus.svg",
+    "exportName": "ActionPlusIcon",
+    "viewBox": "0 0 24 24",
+    "category": "action"
+  },
+  {
+    "name": "action-search",
+    "file": "ic-action-search.svg",
+    "exportName": "ActionSearchIcon",
+    "viewBox": "0 0 24 24",
+    "category": "action"
+  },
+  {
+    "name": "nav-arrow-right",
+    "file": "ic-nav-arrow-right.svg",
+    "exportName": "NavArrowRightIcon",
+    "viewBox": "0 0 24 24",
+    "category": "nav"
+  },
+  {
+    "name": "nav-home",
+    "file": "ic-nav-home.svg",
+    "exportName": "NavHomeIcon",
+    "viewBox": "0 0 24 24",
+    "category": "nav"
+  }
+]

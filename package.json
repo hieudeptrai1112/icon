@@ -1,0 +1,59 @@
+{
+  "name": "@hieudeptrai1112/icon",
+  "version": "0.1.0",
+  "description": "SVG icon library — no IcoMoon, no Ant Design icons.",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "icons/optimized"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./angular": {
+      "types": "./dist/angular/index.d.ts",
+      "import": "./dist/angular/index.js"
+    },
+    "./icons/*": "./dist/icons/*.js"
+  },
+  "scripts": {
+    "icons:generate": "node scripts/generate.mjs",
+    "build": "npm run icons:generate && tsc -p tsconfig.json",
+    "test": "npm run build && node scripts/self-check.mjs",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "@angular/common": ">=17.0.0",
+    "@angular/core": ">=17.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@angular/common": {
+      "optional": true
+    },
+    "@angular/core": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@angular/common": "^19.0.0",
+    "@angular/core": "^19.0.0",
+    "@angular/platform-browser": "^19.0.0",
+    "rxjs": "^7.8.0",
+    "typescript": "^5.8.0",
+    "zone.js": "^0.15.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hieudeptrai1112/icon.git"
+  },
+  "keywords": [
+    "icons",
+    "svg",
+    "design-system",
+    "angular"
+  ]
+}
