@@ -1,6 +1,6 @@
 {
-  "name": "@hieudeptrai1112/icon",
-  "version": "0.1.0",
+  "name": "@hieultra/icon",
+  "version": "0.1.1",
   "description": "SVG icon library — no IcoMoon, no Ant Design icons.",
   "license": "MIT",
   "type": "module",
@@ -19,6 +19,9 @@
       "import": "./dist/angular/index.js"
     },
     "./icons/*": "./dist/icons/*.js"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "icons:generate": "node scripts/generate.mjs",
