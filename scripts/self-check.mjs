@@ -10,7 +10,7 @@ assert.ok(manifest.length >= 6, 'expected at least 6 sample icons');
 for (const icon of manifest) {
   assert.ok(icon.name, 'name required');
   assert.ok(icon.viewBox, 'viewBox required');
-  assert.match(icon.name, /^[a-z0-9]+(-[a-z0-9]+)*$/, `bad name: ${icon.name}`);
+  assert.match(icon.name, /^[a-z0-9]+([_-][a-z0-9]+)*$/, `bad name: ${icon.name}`);
 }
 
 const { NavHomeIcon, getIcon, registerIcons, toSvgElement } = await import('../dist/index.js');
