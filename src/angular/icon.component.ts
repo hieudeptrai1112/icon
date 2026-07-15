@@ -9,7 +9,7 @@ import {
 import { DomSanitizer } from '@angular/platform-browser';
 
 import { defaultIconRegistry, toSvgElement } from '../registry.js';
-import { ICON_SIZE_PX, type IconSize } from '../types.js';
+import { iconSizeToPx, resolveIconSize, type IconSize } from '../types.js';
 import { IconService } from './icon.service.js';
 
 @Component({
@@ -17,9 +17,12 @@ import { IconService } from './icon.service.js';
   standalone: true,
   template: `<span
     class="lib-icon"
-    [class.lib-icon--sm]="size() === 'sm'"
-    [class.lib-icon--md]="size() === 'md'"
-    [class.lib-icon--lg]="size() === 'lg'"
+    [class.lib-icon--xs]="resolvedSize() === 'xs'"
+    [class.lib-icon--s]="resolvedSize() === 's'"
+    [class.lib-icon--m]="resolvedSize() === 'm'"
+    [class.lib-icon--l]="resolvedSize() === 'l'"
+    [class.lib-icon--xl]="resolvedSize() === 'xl'"
+    [class.lib-icon--2xl]="resolvedSize() === '2xl'"
     [attr.role]="ariaLabel() ? 'img' : null"
     [attr.aria-label]="ariaLabel()"
     [attr.aria-hidden]="ariaLabel() ? null : 'true'"
@@ -41,17 +44,29 @@ import { IconService } from './icon.service.js';
         height: 100%;
         display: block;
       }
-      .lib-icon--sm {
+      .lib-icon--xs {
         width: 16px;
         height: 16px;
       }
-      .lib-icon--md {
+      .lib-icon--s {
         width: 20px;
         height: 20px;
       }
-      .lib-icon--lg {
+      .lib-icon--m {
         width: 24px;
         height: 24px;
+      }
+      .lib-icon--l {
+        width: 28px;
+        height: 28px;
+      }
+      .lib-icon--xl {
+        width: 32px;
+        height: 32px;
+      }
+      .lib-icon--2xl {
+        width: 40px;
+        height: 40px;
       }
     `,
   ],
@@ -60,12 +75,15 @@ import { IconService } from './icon.service.js';
 })
 export class IconComponent {
   readonly name = input.required<string>();
-  readonly size = input<IconSize>('md');
+  /** Token size: xs|s|m|l|xl|2xl (default m = 24px). Aliases sm→xs, md→s, lg→m. */
+  readonly size = input<IconSize>('m');
   readonly color = input<string>('currentColor');
   readonly ariaLabel = input<string | null>(null);
 
   private readonly sanitizer = inject(DomSanitizer);
   private readonly iconService = inject(IconService, { optional: true });
+
+  protected readonly resolvedSize = computed(() => resolveIconSize(this.size()));
 
   protected readonly safeSvg = computed(() => {
     const registry = this.iconService?.registry ?? defaultIconRegistry;
@@ -75,7 +93,7 @@ export class IconComponent {
       return '';
     }
 
-    const px = ICON_SIZE_PX[this.size()];
+    const px = iconSizeToPx(this.size());
     const html = toSvgElement(def, {
       width: String(px),
       height: String(px),

@@ -60,13 +60,24 @@ export const appConfig = {
 ```
 
 ```html
-<lib-icon name="nav-home" size="md" />
-<lib-icon name="action-search" size="sm" ariaLabel="Search" />
+<lib-icon name="nav-home" size="m" />
+<lib-icon name="action-search" size="s" ariaLabel="Search" />
 ```
 
 Alias selector: `<mbbiz-icon>` also works.
 
-Sizes: `sm` (16) · `md` (20) · `lg` (24)
+### Icon size tokens (`iconsize/*`)
+
+| Token | Prop `size` | px |
+|---|---|---|
+| `iconsize/xs` | `xs` | 16 |
+| `iconsize/s` | `s` | 20 |
+| `iconsize/m` | `m` (**default**) | 24 |
+| `iconsize/l` | `l` | 28 |
+| `iconsize/xl` | `xl` | 32 |
+| `iconsize/2xl` | `2xl` | 40 |
+
+Legacy aliases: `sm`→`xs`, `md`→`s`, `lg`→`m`.
 
 ## Project layout
 

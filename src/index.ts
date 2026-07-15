@@ -1,5 +1,5 @@
-export type { IconDefinition, IconSize } from './types.js';
-export { ICON_SIZE_PX } from './types.js';
+export type { IconDefinition, IconSize, IconSizeToken, IconSizeAlias } from './types.js';
+export { ICON_SIZE_PX, resolveIconSize, iconSizeToPx } from './types.js';
 export {
   IconRegistry,
   defaultIconRegistry,
