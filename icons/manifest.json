@@ -1,5 +1,138 @@
 [
   {
+    "name": "abold_error",
+    "file": "ABold_Error.svg",
+    "exportName": "Abold_errorIcon",
+    "viewBox": "0 0 32 32",
+    "category": "abold_error"
+  },
+  {
+    "name": "abold_info",
+    "file": "ABold_Info.svg",
+    "exportName": "Abold_infoIcon",
+    "viewBox": "0 0 32 32",
+    "category": "abold_info"
+  },
+  {
+    "name": "abold_success",
+    "file": "ABold_Success.svg",
+    "exportName": "Abold_successIcon",
+    "viewBox": "0 0 32 32",
+    "category": "abold_success"
+  },
+  {
+    "name": "abold_warning",
+    "file": "ABold_Warning.svg",
+    "exportName": "Abold_warningIcon",
+    "viewBox": "0 0 32 32",
+    "category": "abold_warning"
+  },
+  {
+    "name": "alinear_add",
+    "file": "ALinear_Add.svg",
+    "exportName": "Alinear_addIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_add"
+  },
+  {
+    "name": "alinear_calendar",
+    "file": "ALinear_Calendar.svg",
+    "exportName": "Alinear_calendarIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_calendar"
+  },
+  {
+    "name": "alinear_copy",
+    "file": "ALinear_Copy.svg",
+    "exportName": "Alinear_copyIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_copy"
+  },
+  {
+    "name": "alinear_down",
+    "file": "ALinear_Down.svg",
+    "exportName": "Alinear_downIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_down"
+  },
+  {
+    "name": "alinear_download",
+    "file": "ALinear_Download.svg",
+    "exportName": "Alinear_downloadIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_download"
+  },
+  {
+    "name": "alinear_edit",
+    "file": "ALinear_Edit.svg",
+    "exportName": "Alinear_editIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_edit"
+  },
+  {
+    "name": "alinear_hide",
+    "file": "ALinear_Hide.svg",
+    "exportName": "Alinear_hideIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_hide"
+  },
+  {
+    "name": "alinear_info",
+    "file": "ALinear_Info.svg",
+    "exportName": "Alinear_infoIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_info"
+  },
+  {
+    "name": "alinear_left",
+    "file": "ALinear_Left.svg",
+    "exportName": "Alinear_leftIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_left"
+  },
+  {
+    "name": "alinear_right",
+    "file": "ALinear_Right.svg",
+    "exportName": "Alinear_rightIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_right"
+  },
+  {
+    "name": "alinear_search",
+    "file": "ALinear_Search.svg",
+    "exportName": "Alinear_searchIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_search"
+  },
+  {
+    "name": "alinear_trash",
+    "file": "ALinear_Trash.svg",
+    "exportName": "Alinear_trashIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_trash"
+  },
+  {
+    "name": "alinear_up",
+    "file": "ALinear_Up.svg",
+    "exportName": "Alinear_upIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_up"
+  },
+  {
+    "name": "alinear_upload",
+    "file": "ALinear_Upload.svg",
+    "exportName": "Alinear_uploadIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_upload"
+  },
+  {
+    "name": "alinear_visible",
+    "file": "ALinear_Visible.svg",
+    "exportName": "Alinear_visibleIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_visible"
+  },
+  {
     "name": "action-close",
     "file": "ic-action-close.svg",
     "exportName": "ActionCloseIcon",
