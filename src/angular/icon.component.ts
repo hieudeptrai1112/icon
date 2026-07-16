@@ -8,9 +8,14 @@ import {
 } from '@angular/core';
 import { DomSanitizer } from '@angular/platform-browser';
 
-import { defaultIconRegistry, toSvgElement } from '../registry.js';
-import { iconSizeToPx, resolveIconSize, type IconSize } from '../types.js';
-import { IconService } from './icon.service.js';
+import {
+  defaultIconRegistry,
+  iconSizeToPx,
+  resolveIconSize,
+  toSvgElement,
+  type IconSize,
+} from '@hieultra/icon';
+import { IconService } from './icon.service';
 
 @Component({
   selector: 'lib-icon, mbbiz-icon',

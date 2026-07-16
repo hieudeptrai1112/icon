@@ -1,4 +1,4 @@
-import type { IconDefinition } from '../types.js';
+import type { IconDefinition } from '../types';
 
 export const ActionPlusIcon: IconDefinition = {
   name: "action-plus",

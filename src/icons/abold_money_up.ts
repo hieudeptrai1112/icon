@@ -1,4 +1,4 @@
-import type { IconDefinition } from '../types.js';
+import type { IconDefinition } from '../types';
 
 export const Abold_money_upIcon: IconDefinition = {
   name: "abold_money_up",

@@ -1,4 +1,4 @@
-import type { IconDefinition } from '../types.js';
+import type { IconDefinition } from '../types';
 
 export const Alinear_money_upIcon: IconDefinition = {
   name: "alinear_money_up",

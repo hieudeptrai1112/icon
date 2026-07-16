@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
 
-import { IconRegistry, defaultIconRegistry } from '../registry.js';
-import type { IconDefinition } from '../types.js';
+import { IconRegistry, defaultIconRegistry, type IconDefinition } from '@hieultra/icon';
 
 @Injectable({ providedIn: 'root' })
 export class IconService {

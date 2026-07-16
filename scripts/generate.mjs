@@ -86,7 +86,7 @@ function main() {
     const svg = extractInnerSvg(raw);
     const category = categoryFromName(name);
 
-    const ts = `import type { IconDefinition } from '../types.js';
+    const ts = `import type { IconDefinition } from '../types';
 
 export const ${exportName}: IconDefinition = {
   name: ${JSON.stringify(name)},
@@ -98,7 +98,7 @@ export const ${exportName}: IconDefinition = {
 
     writeFileSync(join(outDir, `${name}.ts`), ts, 'utf8');
 
-    exports.push({ name, exportName, file: `./${name}.js` });
+    exports.push({ name, exportName, file: `./${name}` });
     manifest.push({
       name,
       file,
@@ -108,7 +108,7 @@ export const ${exportName}: IconDefinition = {
     });
   }
 
-  const index = `import type { IconDefinition } from '../types.js';
+  const index = `import type { IconDefinition } from '../types';
 ${exports.map((e) => `import { ${e.exportName} } from '${e.file}';`).join('\n')}
 
 export {

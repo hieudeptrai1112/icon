@@ -1,4 +1,4 @@
-import type { IconDefinition } from './types.js';
+import type { IconDefinition } from './types';
 
 export class IconRegistry {
   private readonly icons = new Map<string, IconDefinition>();

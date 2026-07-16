@@ -1,4 +1,4 @@
-import type { IconDefinition } from '../types.js';
+import type { IconDefinition } from '../types';
 
 export const Alinear_scfIcon: IconDefinition = {
   name: "alinear_scf",

@@ -1,32 +1,29 @@
 {
   "name": "@hieultra/icon",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "SVG icon library — no IcoMoon, no Ant Design icons.",
   "license": "MIT",
   "type": "module",
   "sideEffects": false,
   "files": [
-    "dist",
-    "icons/optimized"
+    "dist"
   ],
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/index.js"
+      "default": "./dist/fesm2022/hieultra-icon.mjs"
     },
     "./angular": {
       "types": "./dist/angular/index.d.ts",
-      "import": "./dist/angular/index.js"
-    },
-    "./icons/*": "./dist/icons/*.js"
+      "default": "./dist/fesm2022/hieultra-icon-angular.mjs"
+    }
   },
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
     "icons:generate": "node scripts/generate.mjs",
-    "build": "npm run icons:generate && tsc -p tsconfig.json",
-    "test": "npm run build && node scripts/self-check.mjs",
+    "build": "npm run icons:generate && ng-packagr -p ng-package.json",
     "prepublishOnly": "npm run build"
   },
   "peerDependencies": {
@@ -43,10 +40,13 @@
   },
   "devDependencies": {
     "@angular/common": "^19.0.0",
+    "@angular/compiler": "^19.2.25",
+    "@angular/compiler-cli": "^19.2.25",
     "@angular/core": "^19.0.0",
     "@angular/platform-browser": "^19.0.0",
+    "ng-packagr": "^19.2.2",
     "rxjs": "^7.8.0",
-    "typescript": "^5.8.0",
+    "typescript": "~5.8.0",
     "zone.js": "^0.15.0"
   },
   "repository": {

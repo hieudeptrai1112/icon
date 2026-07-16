@@ -1,4 +1,4 @@
-import type { IconDefinition } from '../types.js';
+import type { IconDefinition } from '../types';
 
 export const Alinear_payment_transferIcon: IconDefinition = {
   name: "alinear_payment_transfer",

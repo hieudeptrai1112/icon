@@ -1,4 +1,4 @@
-import type { IconDefinition } from '../types.js';
+import type { IconDefinition } from '../types';
 
 export const Alinear_cardsIcon: IconDefinition = {
   name: "alinear_cards",
