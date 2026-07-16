@@ -7,6 +7,13 @@
     "category": "abold_error"
   },
   {
+    "name": "abold_home",
+    "file": "ABold_Home.svg",
+    "exportName": "Abold_homeIcon",
+    "viewBox": "0 0 32 32",
+    "category": "abold_home"
+  },
+  {
     "name": "abold_info",
     "file": "ABold_Info.svg",
     "exportName": "Abold_infoIcon",
@@ -42,6 +49,13 @@
     "category": "alinear_calendar"
   },
   {
+    "name": "alinear_cancel",
+    "file": "ALinear_Cancel.svg",
+    "exportName": "Alinear_cancelIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_cancel"
+  },
+  {
     "name": "alinear_copy",
     "file": "ALinear_Copy.svg",
     "exportName": "Alinear_copyIcon",
@@ -70,11 +84,32 @@
     "category": "alinear_edit"
   },
   {
+    "name": "alinear_electricity",
+    "file": "ALinear_Electricity.svg",
+    "exportName": "Alinear_electricityIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_electricity"
+  },
+  {
+    "name": "alinear_expand",
+    "file": "ALinear_Expand.svg",
+    "exportName": "Alinear_expandIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_expand"
+  },
+  {
     "name": "alinear_hide",
     "file": "ALinear_Hide.svg",
     "exportName": "Alinear_hideIcon",
     "viewBox": "0 0 32 32",
     "category": "alinear_hide"
+  },
+  {
+    "name": "alinear_home",
+    "file": "ALinear_Home.svg",
+    "exportName": "Alinear_homeIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_home"
   },
   {
     "name": "alinear_info",
@@ -91,6 +126,13 @@
     "category": "alinear_left"
   },
   {
+    "name": "alinear_logout",
+    "file": "ALinear_Logout.svg",
+    "exportName": "Alinear_logoutIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_logout"
+  },
+  {
     "name": "alinear_right",
     "file": "ALinear_Right.svg",
     "exportName": "Alinear_rightIcon",
@@ -103,6 +145,13 @@
     "exportName": "Alinear_searchIcon",
     "viewBox": "0 0 32 32",
     "category": "alinear_search"
+  },
+  {
+    "name": "alinear_tv",
+    "file": "ALinear_TV.svg",
+    "exportName": "Alinear_tvIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_tv"
   },
   {
     "name": "alinear_trash",
@@ -119,6 +168,13 @@
     "category": "alinear_up"
   },
   {
+    "name": "alinear_update",
+    "file": "ALinear_Update.svg",
+    "exportName": "Alinear_updateIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_update"
+  },
+  {
     "name": "alinear_upload",
     "file": "ALinear_Upload.svg",
     "exportName": "Alinear_uploadIcon",
@@ -131,6 +187,20 @@
     "exportName": "Alinear_visibleIcon",
     "viewBox": "0 0 32 32",
     "category": "alinear_visible"
+  },
+  {
+    "name": "alinear_water",
+    "file": "ALinear_Water.svg",
+    "exportName": "Alinear_waterIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_water"
+  },
+  {
+    "name": "alinear_wifi",
+    "file": "ALinear_Wifi.svg",
+    "exportName": "Alinear_wifiIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_wifi"
   },
   {
     "name": "action-close",
