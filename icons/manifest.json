@@ -1,10 +1,59 @@
 [
   {
+    "name": "abold_building",
+    "file": "ABold_Building.svg",
+    "exportName": "Abold_buildingIcon",
+    "viewBox": "0 0 32 32",
+    "category": "abold_building"
+  },
+  {
+    "name": "abold_cd",
+    "file": "ABold_CD.svg",
+    "exportName": "Abold_cdIcon",
+    "viewBox": "0 0 32 32",
+    "category": "abold_cd"
+  },
+  {
+    "name": "abold_cards",
+    "file": "ABold_Cards.svg",
+    "exportName": "Abold_cardsIcon",
+    "viewBox": "0 0 32 32",
+    "category": "abold_cards"
+  },
+  {
+    "name": "abold_chat",
+    "file": "ABold_Chat.svg",
+    "exportName": "Abold_chatIcon",
+    "viewBox": "0 0 32 32",
+    "category": "abold_chat"
+  },
+  {
+    "name": "abold_coin_up",
+    "file": "ABold_Coin_Up.svg",
+    "exportName": "Abold_coin_upIcon",
+    "viewBox": "0 0 32 32",
+    "category": "abold_coin_up"
+  },
+  {
+    "name": "abold_documents",
+    "file": "ABold_Documents.svg",
+    "exportName": "Abold_documentsIcon",
+    "viewBox": "0 0 32 32",
+    "category": "abold_documents"
+  },
+  {
     "name": "abold_error",
     "file": "ABold_Error.svg",
     "exportName": "Abold_errorIcon",
     "viewBox": "0 0 32 32",
     "category": "abold_error"
+  },
+  {
+    "name": "abold_hierachy",
+    "file": "ABold_Hierachy.svg",
+    "exportName": "Abold_hierachyIcon",
+    "viewBox": "0 0 32 32",
+    "category": "abold_hierachy"
   },
   {
     "name": "abold_home",
@@ -21,11 +70,60 @@
     "category": "abold_info"
   },
   {
+    "name": "abold_manage",
+    "file": "ABold_Manage.svg",
+    "exportName": "Abold_manageIcon",
+    "viewBox": "0 0 32 32",
+    "category": "abold_manage"
+  },
+  {
+    "name": "abold_money",
+    "file": "ABold_Money.svg",
+    "exportName": "Abold_moneyIcon",
+    "viewBox": "0 0 32 32",
+    "category": "abold_money"
+  },
+  {
+    "name": "abold_money_up",
+    "file": "ABold_Money_up.svg",
+    "exportName": "Abold_money_upIcon",
+    "viewBox": "0 0 32 32",
+    "category": "abold_money_up"
+  },
+  {
+    "name": "abold_payment_transfer",
+    "file": "ABold_Payment_Transfer.svg",
+    "exportName": "Abold_payment_transferIcon",
+    "viewBox": "0 0 32 32",
+    "category": "abold_payment_transfer"
+  },
+  {
+    "name": "abold_scf",
+    "file": "ABold_SCF.svg",
+    "exportName": "Abold_scfIcon",
+    "viewBox": "0 0 32 32",
+    "category": "abold_scf"
+  },
+  {
+    "name": "abold_settings",
+    "file": "ABold_Settings.svg",
+    "exportName": "Abold_settingsIcon",
+    "viewBox": "0 0 32 32",
+    "category": "abold_settings"
+  },
+  {
     "name": "abold_success",
     "file": "ABold_Success.svg",
     "exportName": "Abold_successIcon",
     "viewBox": "0 0 32 32",
     "category": "abold_success"
+  },
+  {
+    "name": "abold_wallet",
+    "file": "ABold_Wallet.svg",
+    "exportName": "Abold_walletIcon",
+    "viewBox": "0 0 32 32",
+    "category": "abold_wallet"
   },
   {
     "name": "abold_warning",
@@ -42,6 +140,20 @@
     "category": "alinear_add"
   },
   {
+    "name": "alinear_building",
+    "file": "ALinear_Building.svg",
+    "exportName": "Alinear_buildingIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_building"
+  },
+  {
+    "name": "alinear_cd",
+    "file": "ALinear_CD.svg",
+    "exportName": "Alinear_cdIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_cd"
+  },
+  {
     "name": "alinear_calendar",
     "file": "ALinear_Calendar.svg",
     "exportName": "Alinear_calendarIcon",
@@ -56,11 +168,39 @@
     "category": "alinear_cancel"
   },
   {
+    "name": "alinear_cards",
+    "file": "ALinear_Cards.svg",
+    "exportName": "Alinear_cardsIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_cards"
+  },
+  {
+    "name": "alinear_chat",
+    "file": "ALinear_Chat.svg",
+    "exportName": "Alinear_chatIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_chat"
+  },
+  {
+    "name": "alinear_coin_up",
+    "file": "ALinear_Coin_Up.svg",
+    "exportName": "Alinear_coin_upIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_coin_up"
+  },
+  {
     "name": "alinear_copy",
     "file": "ALinear_Copy.svg",
     "exportName": "Alinear_copyIcon",
     "viewBox": "0 0 32 32",
     "category": "alinear_copy"
+  },
+  {
+    "name": "alinear_documents",
+    "file": "ALinear_Documents.svg",
+    "exportName": "Alinear_documentsIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_documents"
   },
   {
     "name": "alinear_down",
@@ -105,6 +245,13 @@
     "category": "alinear_hide"
   },
   {
+    "name": "alinear_hierachy",
+    "file": "ALinear_Hierachy.svg",
+    "exportName": "Alinear_hierachyIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_hierachy"
+  },
+  {
     "name": "alinear_home",
     "file": "ALinear_Home.svg",
     "exportName": "Alinear_homeIcon",
@@ -126,11 +273,53 @@
     "category": "alinear_left"
   },
   {
+    "name": "alinear_list",
+    "file": "ALinear_List.svg",
+    "exportName": "Alinear_listIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_list"
+  },
+  {
     "name": "alinear_logout",
     "file": "ALinear_Logout.svg",
     "exportName": "Alinear_logoutIcon",
     "viewBox": "0 0 32 32",
     "category": "alinear_logout"
+  },
+  {
+    "name": "alinear_manage",
+    "file": "ALinear_Manage.svg",
+    "exportName": "Alinear_manageIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_manage"
+  },
+  {
+    "name": "alinear_mission",
+    "file": "ALinear_Mission.svg",
+    "exportName": "Alinear_missionIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_mission"
+  },
+  {
+    "name": "alinear_money",
+    "file": "ALinear_Money.svg",
+    "exportName": "Alinear_moneyIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_money"
+  },
+  {
+    "name": "alinear_money_up",
+    "file": "ALinear_Money_Up.svg",
+    "exportName": "Alinear_money_upIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_money_up"
+  },
+  {
+    "name": "alinear_payment_transfer",
+    "file": "ALinear_Payment_Transfer.svg",
+    "exportName": "Alinear_payment_transferIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_payment_transfer"
   },
   {
     "name": "alinear_right",
@@ -140,11 +329,25 @@
     "category": "alinear_right"
   },
   {
+    "name": "alinear_scf",
+    "file": "ALinear_SCF.svg",
+    "exportName": "Alinear_scfIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_scf"
+  },
+  {
     "name": "alinear_search",
     "file": "ALinear_Search.svg",
     "exportName": "Alinear_searchIcon",
     "viewBox": "0 0 32 32",
     "category": "alinear_search"
+  },
+  {
+    "name": "alinear_settings",
+    "file": "ALinear_Settings.svg",
+    "exportName": "Alinear_settingsIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_settings"
   },
   {
     "name": "alinear_tv",
@@ -187,6 +390,13 @@
     "exportName": "Alinear_visibleIcon",
     "viewBox": "0 0 32 32",
     "category": "alinear_visible"
+  },
+  {
+    "name": "alinear_wallet",
+    "file": "ALinear_Wallet.svg",
+    "exportName": "Alinear_walletIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_wallet"
   },
   {
     "name": "alinear_water",
