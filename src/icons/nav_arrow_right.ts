@@ -1,8 +1,8 @@
 import type { IconDefinition } from '../types';
 
 export const NavArrowRightIcon: IconDefinition = {
-  name: "nav-arrow-right",
+  name: "nav_arrow_right",
   viewBox: "0 0 24 24",
   svg: "<path d=\"M4 12h12.5M12 6l6 6-6 6\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>",
-  category: "nav",
+  category: "nav_arrow_right",
 };

@@ -1,130 +1,254 @@
 import type { IconDefinition } from '../types';
-import { Abold_buildingIcon } from './abold_building';
-import { Abold_cdIcon } from './abold_cd';
-import { Abold_cardsIcon } from './abold_cards';
-import { Abold_chatIcon } from './abold_chat';
-import { Abold_coin_upIcon } from './abold_coin_up';
-import { Abold_documentsIcon } from './abold_documents';
-import { Abold_errorIcon } from './abold_error';
-import { Abold_hierachyIcon } from './abold_hierachy';
-import { Abold_homeIcon } from './abold_home';
-import { Abold_infoIcon } from './abold_info';
-import { Abold_manageIcon } from './abold_manage';
-import { Abold_moneyIcon } from './abold_money';
-import { Abold_money_upIcon } from './abold_money_up';
-import { Abold_payment_transferIcon } from './abold_payment_transfer';
-import { Abold_scfIcon } from './abold_scf';
-import { Abold_settingsIcon } from './abold_settings';
-import { Abold_successIcon } from './abold_success';
-import { Abold_walletIcon } from './abold_wallet';
-import { Abold_warningIcon } from './abold_warning';
-import { Alinear_addIcon } from './alinear_add';
-import { Alinear_buildingIcon } from './alinear_building';
-import { Alinear_cdIcon } from './alinear_cd';
-import { Alinear_calendarIcon } from './alinear_calendar';
-import { Alinear_cancelIcon } from './alinear_cancel';
-import { Alinear_cardsIcon } from './alinear_cards';
-import { Alinear_chatIcon } from './alinear_chat';
-import { Alinear_coin_upIcon } from './alinear_coin_up';
-import { Alinear_copyIcon } from './alinear_copy';
-import { Alinear_documentsIcon } from './alinear_documents';
-import { Alinear_downIcon } from './alinear_down';
-import { Alinear_downloadIcon } from './alinear_download';
-import { Alinear_editIcon } from './alinear_edit';
-import { Alinear_electricityIcon } from './alinear_electricity';
-import { Alinear_expandIcon } from './alinear_expand';
-import { Alinear_hideIcon } from './alinear_hide';
-import { Alinear_hierachyIcon } from './alinear_hierachy';
-import { Alinear_homeIcon } from './alinear_home';
-import { Alinear_infoIcon } from './alinear_info';
-import { Alinear_leftIcon } from './alinear_left';
-import { Alinear_listIcon } from './alinear_list';
-import { Alinear_logoutIcon } from './alinear_logout';
-import { Alinear_manageIcon } from './alinear_manage';
-import { Alinear_missionIcon } from './alinear_mission';
-import { Alinear_moneyIcon } from './alinear_money';
-import { Alinear_money_upIcon } from './alinear_money_up';
-import { Alinear_payment_transferIcon } from './alinear_payment_transfer';
-import { Alinear_rightIcon } from './alinear_right';
-import { Alinear_scfIcon } from './alinear_scf';
-import { Alinear_searchIcon } from './alinear_search';
-import { Alinear_settingsIcon } from './alinear_settings';
-import { Alinear_tvIcon } from './alinear_tv';
-import { Alinear_trashIcon } from './alinear_trash';
-import { Alinear_upIcon } from './alinear_up';
-import { Alinear_updateIcon } from './alinear_update';
-import { Alinear_uploadIcon } from './alinear_upload';
-import { Alinear_visibleIcon } from './alinear_visible';
-import { Alinear_walletIcon } from './alinear_wallet';
-import { Alinear_waterIcon } from './alinear_water';
-import { Alinear_wifiIcon } from './alinear_wifi';
-import { ActionCloseIcon } from './action-close';
-import { ActionEditIcon } from './action-edit';
-import { ActionPlusIcon } from './action-plus';
-import { ActionSearchIcon } from './action-search';
-import { NavArrowRightIcon } from './nav-arrow-right';
-import { NavHomeIcon } from './nav-home';
+import { AboldBuildingIcon } from './abold_building';
+import { AboldCdIcon } from './abold_cd';
+import { AboldCardsIcon } from './abold_cards';
+import { AboldChatIcon } from './abold_chat';
+import { AboldCoinUpIcon } from './abold_coin_up';
+import { AboldCreditIcon } from './abold_credit';
+import { AboldDocumentsIcon } from './abold_documents';
+import { AboldErrorIcon } from './abold_error';
+import { AboldHierachyIcon } from './abold_hierachy';
+import { AboldHomeIcon } from './abold_home';
+import { AboldInfoIcon } from './abold_info';
+import { AboldManageIcon } from './abold_manage';
+import { AboldMoneyIcon } from './abold_money';
+import { AboldMoneyUpIcon } from './abold_money_up';
+import { AboldPaymentTransferIcon } from './abold_payment_transfer';
+import { AboldScfIcon } from './abold_scf';
+import { AboldSettingsIcon } from './abold_settings';
+import { AboldSuccessIcon } from './abold_success';
+import { AboldWalletIcon } from './abold_wallet';
+import { AboldWarningIcon } from './abold_warning';
+import { AlinearAddIcon } from './alinear_add';
+import { AlinearAddCardIcon } from './alinear_add_card';
+import { AlinearAddPaperIcon } from './alinear_add_paper';
+import { AlinearAutoBillIcon } from './alinear_auto_bill';
+import { AlinearBiometricIcon } from './alinear_biometric';
+import { AlinearBoardPercentageIcon } from './alinear_board_percentage';
+import { AlinearBoatIcon } from './alinear_boat';
+import { AlinearBookIcon } from './alinear_book';
+import { AlinearBookAddressIcon } from './alinear_book_address';
+import { AlinearBuildingIcon } from './alinear_building';
+import { AlinearCdIcon } from './alinear_cd';
+import { AlinearCalculatorIcon } from './alinear_calculator';
+import { AlinearCalendarIcon } from './alinear_calendar';
+import { AlinearCancelIcon } from './alinear_cancel';
+import { AlinearCardDollarIcon } from './alinear_card_dollar';
+import { AlinearCardFocusIcon } from './alinear_card_focus';
+import { AlinearCardTransferIcon } from './alinear_card_transfer';
+import { AlinearCardViewIcon } from './alinear_card_view';
+import { AlinearCardsIcon } from './alinear_cards';
+import { AlinearChangeAccountIcon } from './alinear_change_account';
+import { AlinearChatIcon } from './alinear_chat';
+import { AlinearClockIcon } from './alinear_clock';
+import { AlinearCodeIcon } from './alinear_code';
+import { AlinearCoinUpIcon } from './alinear_coin_up';
+import { AlinearContractAddIcon } from './alinear_contract_add';
+import { AlinearCopyIcon } from './alinear_copy';
+import { AlinearCreditIcon } from './alinear_credit';
+import { AlinearDocDownloadIcon } from './alinear_doc_download';
+import { AlinearDocSearchIcon } from './alinear_doc_search';
+import { AlinearDocumentsIcon } from './alinear_documents';
+import { AlinearDownIcon } from './alinear_down';
+import { AlinearDownloadIcon } from './alinear_download';
+import { AlinearDuplicatePageIcon } from './alinear_duplicate_page';
+import { AlinearEditIcon } from './alinear_edit';
+import { AlinearElectricityIcon } from './alinear_electricity';
+import { AlinearEmailIcon } from './alinear_email';
+import { AlinearExchangeIcon } from './alinear_exchange';
+import { AlinearExpandIcon } from './alinear_expand';
+import { AlinearFormManagementIcon } from './alinear_form_management';
+import { AlinearHandMoneyIcon } from './alinear_hand_money';
+import { AlinearHideIcon } from './alinear_hide';
+import { AlinearHierachyIcon } from './alinear_hierachy';
+import { AlinearHomeIcon } from './alinear_home';
+import { AlinearInfoIcon } from './alinear_info';
+import { AlinearInsuranceIcon } from './alinear_insurance';
+import { AlinearJarIcon } from './alinear_jar';
+import { AlinearLeftIcon } from './alinear_left';
+import { AlinearList1Icon } from './alinear_list_1';
+import { AlinearListIcon } from './alinear_list';
+import { AlinearLoansIcon } from './alinear_loans';
+import { AlinearLockIcon } from './alinear_lock';
+import { AlinearLogoutIcon } from './alinear_logout';
+import { AlinearManageIcon } from './alinear_manage';
+import { AlinearMenu1Icon } from './alinear_menu_1';
+import { AlinearMenu2Icon } from './alinear_menu_2';
+import { AlinearMissionIcon } from './alinear_mission';
+import { AlinearMobileTimeIcon } from './alinear_mobile_time';
+import { AlinearMoneyIcon } from './alinear_money';
+import { AlinearMoneyCodeIcon } from './alinear_money_code';
+import { AlinearMoneyExchangeIcon } from './alinear_money_exchange';
+import { AlinearMoneyUpIcon } from './alinear_money_up';
+import { AlinearNotificationIcon } from './alinear_notification';
+import { AlinearNumberIcon } from './alinear_number';
+import { AlinearOnOffIcon } from './alinear_on_off';
+import { AlinearPaperCloudIcon } from './alinear_paper_cloud';
+import { AlinearPaymentTransferIcon } from './alinear_payment_transfer';
+import { AlinearPhone1Icon } from './alinear_phone_1';
+import { AlinearPhoneIcon } from './alinear_phone';
+import { AlinearPlaneIcon } from './alinear_plane';
+import { AlinearPlaneHomeIcon } from './alinear_plane_home';
+import { AlinearPrinterIcon } from './alinear_printer';
+import { AlinearProfileIcon } from './alinear_profile';
+import { AlinearQrIcon } from './alinear_qr';
+import { AlinearQuickQrIcon } from './alinear_quick_qr';
+import { AlinearReceiveIcon } from './alinear_receive';
+import { AlinearReverseSettingIcon } from './alinear_reverse_setting';
+import { AlinearRightIcon } from './alinear_right';
+import { AlinearScfIcon } from './alinear_scf';
+import { AlinearScanQrIcon } from './alinear_scan_qr';
+import { AlinearSearchIcon } from './alinear_search';
+import { AlinearSearchFileIcon } from './alinear_search_file';
+import { AlinearSendIcon } from './alinear_send';
+import { AlinearSettingsIcon } from './alinear_settings';
+import { AlinearShieldIcon } from './alinear_shield';
+import { AlinearStatusIcon } from './alinear_status';
+import { AlinearSubmitFeedbackIcon } from './alinear_submit_feedback';
+import { AlinearTvIcon } from './alinear_tv';
+import { AlinearTopUpIcon } from './alinear_top_up';
+import { AlinearTransferIcon } from './alinear_transfer';
+import { AlinearTransferAccountIcon } from './alinear_transfer_account';
+import { AlinearTrashIcon } from './alinear_trash';
+import { AlinearUpIcon } from './alinear_up';
+import { AlinearUpdateIcon } from './alinear_update';
+import { AlinearUploadIcon } from './alinear_upload';
+import { AlinearVaultIcon } from './alinear_vault';
+import { AlinearVisibleIcon } from './alinear_visible';
+import { AlinearWalletIcon } from './alinear_wallet';
+import { AlinearWalletInIcon } from './alinear_wallet_in';
+import { AlinearWaterIcon } from './alinear_water';
+import { AlinearWifiIcon } from './alinear_wifi';
+import { AlinearWithdrawalIcon } from './alinear_withdrawal';
+import { ActionCloseIcon } from './action_close';
+import { ActionEditIcon } from './action_edit';
+import { ActionPlusIcon } from './action_plus';
+import { ActionSearchIcon } from './action_search';
+import { NavArrowRightIcon } from './nav_arrow_right';
+import { NavHomeIcon } from './nav_home';
 
 export {
-  Abold_buildingIcon,
-  Abold_cdIcon,
-  Abold_cardsIcon,
-  Abold_chatIcon,
-  Abold_coin_upIcon,
-  Abold_documentsIcon,
-  Abold_errorIcon,
-  Abold_hierachyIcon,
-  Abold_homeIcon,
-  Abold_infoIcon,
-  Abold_manageIcon,
-  Abold_moneyIcon,
-  Abold_money_upIcon,
-  Abold_payment_transferIcon,
-  Abold_scfIcon,
-  Abold_settingsIcon,
-  Abold_successIcon,
-  Abold_walletIcon,
-  Abold_warningIcon,
-  Alinear_addIcon,
-  Alinear_buildingIcon,
-  Alinear_cdIcon,
-  Alinear_calendarIcon,
-  Alinear_cancelIcon,
-  Alinear_cardsIcon,
-  Alinear_chatIcon,
-  Alinear_coin_upIcon,
-  Alinear_copyIcon,
-  Alinear_documentsIcon,
-  Alinear_downIcon,
-  Alinear_downloadIcon,
-  Alinear_editIcon,
-  Alinear_electricityIcon,
-  Alinear_expandIcon,
-  Alinear_hideIcon,
-  Alinear_hierachyIcon,
-  Alinear_homeIcon,
-  Alinear_infoIcon,
-  Alinear_leftIcon,
-  Alinear_listIcon,
-  Alinear_logoutIcon,
-  Alinear_manageIcon,
-  Alinear_missionIcon,
-  Alinear_moneyIcon,
-  Alinear_money_upIcon,
-  Alinear_payment_transferIcon,
-  Alinear_rightIcon,
-  Alinear_scfIcon,
-  Alinear_searchIcon,
-  Alinear_settingsIcon,
-  Alinear_tvIcon,
-  Alinear_trashIcon,
-  Alinear_upIcon,
-  Alinear_updateIcon,
-  Alinear_uploadIcon,
-  Alinear_visibleIcon,
-  Alinear_walletIcon,
-  Alinear_waterIcon,
-  Alinear_wifiIcon,
+  AboldBuildingIcon,
+  AboldCdIcon,
+  AboldCardsIcon,
+  AboldChatIcon,
+  AboldCoinUpIcon,
+  AboldCreditIcon,
+  AboldDocumentsIcon,
+  AboldErrorIcon,
+  AboldHierachyIcon,
+  AboldHomeIcon,
+  AboldInfoIcon,
+  AboldManageIcon,
+  AboldMoneyIcon,
+  AboldMoneyUpIcon,
+  AboldPaymentTransferIcon,
+  AboldScfIcon,
+  AboldSettingsIcon,
+  AboldSuccessIcon,
+  AboldWalletIcon,
+  AboldWarningIcon,
+  AlinearAddIcon,
+  AlinearAddCardIcon,
+  AlinearAddPaperIcon,
+  AlinearAutoBillIcon,
+  AlinearBiometricIcon,
+  AlinearBoardPercentageIcon,
+  AlinearBoatIcon,
+  AlinearBookIcon,
+  AlinearBookAddressIcon,
+  AlinearBuildingIcon,
+  AlinearCdIcon,
+  AlinearCalculatorIcon,
+  AlinearCalendarIcon,
+  AlinearCancelIcon,
+  AlinearCardDollarIcon,
+  AlinearCardFocusIcon,
+  AlinearCardTransferIcon,
+  AlinearCardViewIcon,
+  AlinearCardsIcon,
+  AlinearChangeAccountIcon,
+  AlinearChatIcon,
+  AlinearClockIcon,
+  AlinearCodeIcon,
+  AlinearCoinUpIcon,
+  AlinearContractAddIcon,
+  AlinearCopyIcon,
+  AlinearCreditIcon,
+  AlinearDocDownloadIcon,
+  AlinearDocSearchIcon,
+  AlinearDocumentsIcon,
+  AlinearDownIcon,
+  AlinearDownloadIcon,
+  AlinearDuplicatePageIcon,
+  AlinearEditIcon,
+  AlinearElectricityIcon,
+  AlinearEmailIcon,
+  AlinearExchangeIcon,
+  AlinearExpandIcon,
+  AlinearFormManagementIcon,
+  AlinearHandMoneyIcon,
+  AlinearHideIcon,
+  AlinearHierachyIcon,
+  AlinearHomeIcon,
+  AlinearInfoIcon,
+  AlinearInsuranceIcon,
+  AlinearJarIcon,
+  AlinearLeftIcon,
+  AlinearList1Icon,
+  AlinearListIcon,
+  AlinearLoansIcon,
+  AlinearLockIcon,
+  AlinearLogoutIcon,
+  AlinearManageIcon,
+  AlinearMenu1Icon,
+  AlinearMenu2Icon,
+  AlinearMissionIcon,
+  AlinearMobileTimeIcon,
+  AlinearMoneyIcon,
+  AlinearMoneyCodeIcon,
+  AlinearMoneyExchangeIcon,
+  AlinearMoneyUpIcon,
+  AlinearNotificationIcon,
+  AlinearNumberIcon,
+  AlinearOnOffIcon,
+  AlinearPaperCloudIcon,
+  AlinearPaymentTransferIcon,
+  AlinearPhone1Icon,
+  AlinearPhoneIcon,
+  AlinearPlaneIcon,
+  AlinearPlaneHomeIcon,
+  AlinearPrinterIcon,
+  AlinearProfileIcon,
+  AlinearQrIcon,
+  AlinearQuickQrIcon,
+  AlinearReceiveIcon,
+  AlinearReverseSettingIcon,
+  AlinearRightIcon,
+  AlinearScfIcon,
+  AlinearScanQrIcon,
+  AlinearSearchIcon,
+  AlinearSearchFileIcon,
+  AlinearSendIcon,
+  AlinearSettingsIcon,
+  AlinearShieldIcon,
+  AlinearStatusIcon,
+  AlinearSubmitFeedbackIcon,
+  AlinearTvIcon,
+  AlinearTopUpIcon,
+  AlinearTransferIcon,
+  AlinearTransferAccountIcon,
+  AlinearTrashIcon,
+  AlinearUpIcon,
+  AlinearUpdateIcon,
+  AlinearUploadIcon,
+  AlinearVaultIcon,
+  AlinearVisibleIcon,
+  AlinearWalletIcon,
+  AlinearWalletInIcon,
+  AlinearWaterIcon,
+  AlinearWifiIcon,
+  AlinearWithdrawalIcon,
   ActionCloseIcon,
   ActionEditIcon,
   ActionPlusIcon,
@@ -135,65 +259,127 @@ export {
 
 /** All generated icons — prefer registering only what you need. */
 export const allIcons: IconDefinition[] = [
-  Abold_buildingIcon,
-  Abold_cdIcon,
-  Abold_cardsIcon,
-  Abold_chatIcon,
-  Abold_coin_upIcon,
-  Abold_documentsIcon,
-  Abold_errorIcon,
-  Abold_hierachyIcon,
-  Abold_homeIcon,
-  Abold_infoIcon,
-  Abold_manageIcon,
-  Abold_moneyIcon,
-  Abold_money_upIcon,
-  Abold_payment_transferIcon,
-  Abold_scfIcon,
-  Abold_settingsIcon,
-  Abold_successIcon,
-  Abold_walletIcon,
-  Abold_warningIcon,
-  Alinear_addIcon,
-  Alinear_buildingIcon,
-  Alinear_cdIcon,
-  Alinear_calendarIcon,
-  Alinear_cancelIcon,
-  Alinear_cardsIcon,
-  Alinear_chatIcon,
-  Alinear_coin_upIcon,
-  Alinear_copyIcon,
-  Alinear_documentsIcon,
-  Alinear_downIcon,
-  Alinear_downloadIcon,
-  Alinear_editIcon,
-  Alinear_electricityIcon,
-  Alinear_expandIcon,
-  Alinear_hideIcon,
-  Alinear_hierachyIcon,
-  Alinear_homeIcon,
-  Alinear_infoIcon,
-  Alinear_leftIcon,
-  Alinear_listIcon,
-  Alinear_logoutIcon,
-  Alinear_manageIcon,
-  Alinear_missionIcon,
-  Alinear_moneyIcon,
-  Alinear_money_upIcon,
-  Alinear_payment_transferIcon,
-  Alinear_rightIcon,
-  Alinear_scfIcon,
-  Alinear_searchIcon,
-  Alinear_settingsIcon,
-  Alinear_tvIcon,
-  Alinear_trashIcon,
-  Alinear_upIcon,
-  Alinear_updateIcon,
-  Alinear_uploadIcon,
-  Alinear_visibleIcon,
-  Alinear_walletIcon,
-  Alinear_waterIcon,
-  Alinear_wifiIcon,
+  AboldBuildingIcon,
+  AboldCdIcon,
+  AboldCardsIcon,
+  AboldChatIcon,
+  AboldCoinUpIcon,
+  AboldCreditIcon,
+  AboldDocumentsIcon,
+  AboldErrorIcon,
+  AboldHierachyIcon,
+  AboldHomeIcon,
+  AboldInfoIcon,
+  AboldManageIcon,
+  AboldMoneyIcon,
+  AboldMoneyUpIcon,
+  AboldPaymentTransferIcon,
+  AboldScfIcon,
+  AboldSettingsIcon,
+  AboldSuccessIcon,
+  AboldWalletIcon,
+  AboldWarningIcon,
+  AlinearAddIcon,
+  AlinearAddCardIcon,
+  AlinearAddPaperIcon,
+  AlinearAutoBillIcon,
+  AlinearBiometricIcon,
+  AlinearBoardPercentageIcon,
+  AlinearBoatIcon,
+  AlinearBookIcon,
+  AlinearBookAddressIcon,
+  AlinearBuildingIcon,
+  AlinearCdIcon,
+  AlinearCalculatorIcon,
+  AlinearCalendarIcon,
+  AlinearCancelIcon,
+  AlinearCardDollarIcon,
+  AlinearCardFocusIcon,
+  AlinearCardTransferIcon,
+  AlinearCardViewIcon,
+  AlinearCardsIcon,
+  AlinearChangeAccountIcon,
+  AlinearChatIcon,
+  AlinearClockIcon,
+  AlinearCodeIcon,
+  AlinearCoinUpIcon,
+  AlinearContractAddIcon,
+  AlinearCopyIcon,
+  AlinearCreditIcon,
+  AlinearDocDownloadIcon,
+  AlinearDocSearchIcon,
+  AlinearDocumentsIcon,
+  AlinearDownIcon,
+  AlinearDownloadIcon,
+  AlinearDuplicatePageIcon,
+  AlinearEditIcon,
+  AlinearElectricityIcon,
+  AlinearEmailIcon,
+  AlinearExchangeIcon,
+  AlinearExpandIcon,
+  AlinearFormManagementIcon,
+  AlinearHandMoneyIcon,
+  AlinearHideIcon,
+  AlinearHierachyIcon,
+  AlinearHomeIcon,
+  AlinearInfoIcon,
+  AlinearInsuranceIcon,
+  AlinearJarIcon,
+  AlinearLeftIcon,
+  AlinearList1Icon,
+  AlinearListIcon,
+  AlinearLoansIcon,
+  AlinearLockIcon,
+  AlinearLogoutIcon,
+  AlinearManageIcon,
+  AlinearMenu1Icon,
+  AlinearMenu2Icon,
+  AlinearMissionIcon,
+  AlinearMobileTimeIcon,
+  AlinearMoneyIcon,
+  AlinearMoneyCodeIcon,
+  AlinearMoneyExchangeIcon,
+  AlinearMoneyUpIcon,
+  AlinearNotificationIcon,
+  AlinearNumberIcon,
+  AlinearOnOffIcon,
+  AlinearPaperCloudIcon,
+  AlinearPaymentTransferIcon,
+  AlinearPhone1Icon,
+  AlinearPhoneIcon,
+  AlinearPlaneIcon,
+  AlinearPlaneHomeIcon,
+  AlinearPrinterIcon,
+  AlinearProfileIcon,
+  AlinearQrIcon,
+  AlinearQuickQrIcon,
+  AlinearReceiveIcon,
+  AlinearReverseSettingIcon,
+  AlinearRightIcon,
+  AlinearScfIcon,
+  AlinearScanQrIcon,
+  AlinearSearchIcon,
+  AlinearSearchFileIcon,
+  AlinearSendIcon,
+  AlinearSettingsIcon,
+  AlinearShieldIcon,
+  AlinearStatusIcon,
+  AlinearSubmitFeedbackIcon,
+  AlinearTvIcon,
+  AlinearTopUpIcon,
+  AlinearTransferIcon,
+  AlinearTransferAccountIcon,
+  AlinearTrashIcon,
+  AlinearUpIcon,
+  AlinearUpdateIcon,
+  AlinearUploadIcon,
+  AlinearVaultIcon,
+  AlinearVisibleIcon,
+  AlinearWalletIcon,
+  AlinearWalletInIcon,
+  AlinearWaterIcon,
+  AlinearWifiIcon,
+  AlinearWithdrawalIcon,
   ActionCloseIcon,
   ActionEditIcon,
   ActionPlusIcon,

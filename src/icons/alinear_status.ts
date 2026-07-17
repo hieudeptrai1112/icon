@@ -1,0 +1,8 @@
+import type { IconDefinition } from '../types';
+
+export const AlinearStatusIcon: IconDefinition = {
+  name: "alinear_status",
+  viewBox: "0 0 32 32",
+  svg: "<path d=\"M13.5549 12.333H8.66602\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M20.2782 14.7781C18.5907 14.7781 17.2227 13.4101 17.2227 11.7225C17.2227 10.035 18.5907 8.66699 20.2782 8.66699C21.9657 8.66699 23.3338 10.035 23.3338 11.7225C23.3338 13.4101 21.9657 14.7781 20.2782 14.7781Z\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M8.66602 8.66699H12.3327\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M8.66732 23.3333L14.1673 19.6666L17.2229 22.1111L23.334 17.2222\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M5 26.2667V5.73333C5 5.32833 5.32833 5 5.73333 5H26.2667C26.6717 5 27 5.32833 27 5.73333V26.2667C27 26.6717 26.6717 27 26.2667 27H5.73333C5.32833 27 5 26.6717 5 26.2667Z\" stroke=\"currentColor\" stroke-width=\"1.5\"/>",
+  category: "alinear_status",
+};

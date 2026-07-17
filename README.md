@@ -62,6 +62,7 @@ export const appConfig = {
 ```html
 <lib-icon name="nav-home" size="m" />
 <lib-icon name="action-search" size="s" ariaLabel="Search" />
+<lib-icon name="abold_error" size="m" color="#f53f3f" />
 ```
 
 Alias selector: `<mbbiz-icon>` also works.
@@ -78,6 +79,30 @@ Alias selector: `<mbbiz-icon>` also works.
 | `iconsize/2xl` | `2xl` | 40 |
 
 Legacy aliases: `sm`→`xs`, `md`→`s`, `lg`→`m`.
+
+### Color (same model as ng-zorro)
+
+SVG paths use `currentColor`. The host sets CSS `color` via the `color` input (default `currentColor`) or by inheriting from a parent.
+
+```html
+<!-- Inherit from parent -->
+<button style="color: #1677ff">
+  <lib-icon name="action-plus" size="s" />
+  Add
+</button>
+
+<!-- Explicit prop -->
+<lib-icon name="abold_error" size="m" color="#f53f3f" />
+<lib-icon name="abold_success" size="m" color="var(--semantic-color-success)" />
+```
+
+```css
+.icon-muted {
+  color: var(--semantic-color-text-secondary);
+}
+```
+
+Do **not** hard-code hex fills in raw SVG if the icon must recolor — the generate script rewrites non-`none`/`currentColor` fills to `currentColor`.
 
 ## Project layout
 

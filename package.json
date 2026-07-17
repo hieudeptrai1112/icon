@@ -1,6 +1,6 @@
 {
   "name": "@hieultra/icon",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "SVG icon library — no IcoMoon, no Ant Design icons.",
   "license": "MIT",
   "type": "module",

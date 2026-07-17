@@ -1,0 +1,8 @@
+import type { IconDefinition } from '../types';
+
+export const AlinearBiometricIcon: IconDefinition = {
+  name: "alinear_biometric",
+  viewBox: "0 0 32 32",
+  svg: "<path d=\"M9 24V23C9 21.1435 9.7375 19.363 11.0503 18.0503C12.363 16.7375 14.1435 16 16 16M16 16C17.8565 16 19.637 16.7375 20.9497 18.0503C22.2625 19.363 23 21.1435 23 23V24M16 16C17.0609 16 18.0783 15.5786 18.8284 14.8284C19.5786 14.0783 20 13.0609 20 12C20 10.9391 19.5786 9.92172 18.8284 9.17157C18.0783 8.42143 17.0609 8 16 8C14.9391 8 13.9217 8.42143 13.1716 9.17157C12.4214 9.92172 12 10.9391 12 12C12 13.0609 12.4214 14.0783 13.1716 14.8284C13.9217 15.5786 14.9391 16 16 16Z\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M9.33333 4H6.66667C5.19391 4 4 5.19391 4 6.66667V9.33333\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M22.668 4H25.3346C26.8074 4 28.0013 5.19391 28.0013 6.66667V9.33333\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M9.33333 28.0003H6.66667C5.19391 28.0003 4 26.8065 4 25.3337V22.667\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M22.668 28.0003H25.3346C26.8074 28.0003 28.0013 26.8065 28.0013 25.3337V22.667\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>",
+  category: "alinear_biometric",
+};

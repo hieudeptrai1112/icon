@@ -18,12 +18,15 @@ const manifestPath = join(root, 'icons', 'manifest.json');
 function toKebabName(fileName) {
   return basename(fileName, '.svg')
     .replace(/^ic-/, '')
-    .toLowerCase();
+    .toLowerCase()
+    .replace(/&/g, 'and')
+    .replace(/[^a-z0-9]+/g, '_')
+    .replace(/^_+|_+$/g, '');
 }
 
 function toExportName(kebab) {
   const pascal = kebab
-    .split('-')
+    .split(/[-_]/)
     .filter(Boolean)
     .map((part) => part[0].toUpperCase() + part.slice(1))
     .join('');

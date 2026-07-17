@@ -1,0 +1,8 @@
+import type { IconDefinition } from '../types';
+
+export const AlinearDuplicatePageIcon: IconDefinition = {
+  name: "alinear_duplicate_page",
+  viewBox: "0 0 32 32",
+  svg: "<path d=\"M10.4043 22.6582H14.3122H18.2201\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M10.4043 18.3159H10.9832H11.5622\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M10.4043 13.6846H11.9964H13.5885\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M10.4043 5H20.815L25.7464 9.98065V23.8158\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M6.0625 25.3401V9.84479C6.0625 8.92787 6.80123 8.18457 7.7125 8.18457H18.4392C18.6142 8.18457 18.782 8.25453 18.9058 8.37908L22.3692 11.8639C22.493 11.9884 22.5625 12.1574 22.5625 12.3335V25.3401C22.5625 26.257 21.8237 27.0004 20.9125 27.0004H7.7125C6.80123 27.0004 6.0625 26.257 6.0625 25.3401Z\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M18.2227 12.1214V8.59394C18.2227 8.36785 18.3945 8.18457 18.6065 8.18457C18.7082 8.18457 18.8058 8.2277 18.8779 8.30447L22.4523 12.1173C22.5244 12.1941 22.5648 12.2982 22.5648 12.4068C22.5648 12.6329 22.3929 12.8161 22.1809 12.8161H18.874C18.5142 12.8161 18.2227 12.5051 18.2227 12.1214Z\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>",
+  category: "alinear_duplicate_page",
+};
