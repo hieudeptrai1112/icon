@@ -1,6 +1,6 @@
 import { APP_INITIALIZER, type EnvironmentProviders, makeEnvironmentProviders } from '@angular/core';
 
-import { type IconDefinition } from '@hieultra/icon';
+import { type IconDefinition } from '@mbbiz/icon';
 import { IconService } from './icon.service';
 
 export function provideIcons(icons: readonly IconDefinition[]): EnvironmentProviders {

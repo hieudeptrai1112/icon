@@ -1,4 +1,4 @@
-# @hieultra/icon
+# @mbbiz/icon
 
 SVG icon library — **no IcoMoon, no Ant Design icons**.
 
@@ -11,7 +11,7 @@ icons/raw/*.svg  →  npm run icons:generate  →  src/icons/*.ts  →  <lib-ico
 ## Install
 
 ```bash
-npm install @hieultra/icon
+npm install @mbbiz/icon
 # or link locally / git:
 # npm install github:hieudeptrai1112/icon
 ```
@@ -36,7 +36,7 @@ Rules for SVG:
 ## Usage (core)
 
 ```ts
-import { registerIcons, NavHomeIcon, ActionPlusIcon, toSvgElement } from '@hieultra/icon';
+import { registerIcons, NavHomeIcon, ActionPlusIcon, toSvgElement } from '@mbbiz/icon';
 
 registerIcons(NavHomeIcon, ActionPlusIcon);
 
@@ -49,8 +49,8 @@ Register **only icons you need** — do not import `allIcons` in production apps
 
 ```ts
 // app.config.ts
-import { provideIcons } from '@hieultra/icon/angular';
-import { NavHomeIcon, ActionSearchIcon } from '@hieultra/icon';
+import { provideIcons } from '@mbbiz/icon/angular';
+import { NavHomeIcon, ActionSearchIcon } from '@mbbiz/icon';
 
 export const appConfig = {
   providers: [

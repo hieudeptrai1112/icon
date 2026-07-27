@@ -14,7 +14,7 @@ import {
   resolveIconSize,
   toSvgElement,
   type IconSize,
-} from '@hieultra/icon';
+} from '@mbbiz/icon';
 import { IconService } from './icon.service';
 
 @Component({
