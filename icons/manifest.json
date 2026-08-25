@@ -21,6 +21,13 @@
     "category": "abold_cards"
   },
   {
+    "name": "abold_chain",
+    "file": "ABold_Chain.svg",
+    "exportName": "AboldChainIcon",
+    "viewBox": "0 0 24 24",
+    "category": "abold_chain"
+  },
+  {
     "name": "abold_chat",
     "file": "ABold_Chat.svg",
     "exportName": "AboldChatIcon",
@@ -273,6 +280,13 @@
     "category": "alinear_cards"
   },
   {
+    "name": "alinear_chain",
+    "file": "ALinear_Chain.svg",
+    "exportName": "AlinearChainIcon",
+    "viewBox": "0 0 24 24",
+    "category": "alinear_chain"
+  },
+  {
     "name": "alinear_change_account",
     "file": "ALinear_Change Account.svg",
     "exportName": "AlinearChangeAccountIcon",
@@ -306,6 +320,13 @@
     "exportName": "AlinearCoinUpIcon",
     "viewBox": "0 0 32 32",
     "category": "alinear_coin_up"
+  },
+  {
+    "name": "alinear_coins",
+    "file": "ALinear_Coins.svg",
+    "exportName": "AlinearCoinsIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_coins"
   },
   {
     "name": "alinear_contract_add",
@@ -406,6 +427,13 @@
     "category": "alinear_expand"
   },
   {
+    "name": "alinear_folder_plus",
+    "file": "ALinear_Folder_Plus.svg",
+    "exportName": "AlinearFolderPlusIcon",
+    "viewBox": "0 0 20 20",
+    "category": "alinear_folder_plus"
+  },
+  {
     "name": "alinear_form_management",
     "file": "ALinear_Form_Management.svg",
     "exportName": "AlinearFormManagementIcon",
@@ -467,13 +495,6 @@
     "exportName": "AlinearLeftIcon",
     "viewBox": "0 0 32 32",
     "category": "alinear_left"
-  },
-  {
-    "name": "alinear_list_1",
-    "file": "ALinear_List-1.svg",
-    "exportName": "AlinearList1Icon",
-    "viewBox": "0 0 32 32",
-    "category": "alinear_list_1"
   },
   {
     "name": "alinear_list",

@@ -5,7 +5,7 @@ SVG icon library — **no IcoMoon, no Ant Design icons**.
 Pipeline:
 
 ```
-icons/raw/*.svg  →  npm run icons:generate  →  src/icons/*.ts  →  <lib-icon>
+icons/raw/*.svg  →  npm run icons:generate  →  src/icons/*.ts  →  <mbiz-icon>
 ```
 
 ## Install
@@ -60,9 +60,9 @@ export const appConfig = {
 ```
 
 ```html
-<lib-icon name="nav-home" size="m" />
-<lib-icon name="action-search" size="s" ariaLabel="Search" />
-<lib-icon name="abold_error" size="m" color="#f53f3f" />
+<mbiz-icon name="nav-home" size="m" />
+<mbiz-icon name="action-search" size="s" ariaLabel="Search" />
+<mbiz-icon name="abold_error" size="m" color="#f53f3f" />
 ```
 
 Alias selector: `<mbbiz-icon>` also works.
@@ -87,13 +87,13 @@ SVG paths use `currentColor`. The host sets CSS `color` via the `color` input (d
 ```html
 <!-- Inherit from parent -->
 <button style="color: #1677ff">
-  <lib-icon name="action-plus" size="s" />
+  <mbiz-icon name="action-plus" size="s" />
   Add
 </button>
 
 <!-- Explicit prop -->
-<lib-icon name="abold_error" size="m" color="#f53f3f" />
-<lib-icon name="abold_success" size="m" color="var(--semantic-color-success)" />
+<mbiz-icon name="abold_error" size="m" color="#f53f3f" />
+<mbiz-icon name="abold_success" size="m" color="var(--semantic-color-success)" />
 ```
 
 ```css

@@ -18,16 +18,16 @@ import {
 import { IconService } from './icon.service';
 
 @Component({
-  selector: 'lib-icon, mbbiz-icon',
+  selector: 'mbiz-icon, mbbiz-icon',
   standalone: true,
   template: `<span
-    class="lib-icon"
-    [class.lib-icon--xs]="resolvedSize() === 'xs'"
-    [class.lib-icon--s]="resolvedSize() === 's'"
-    [class.lib-icon--m]="resolvedSize() === 'm'"
-    [class.lib-icon--l]="resolvedSize() === 'l'"
-    [class.lib-icon--xl]="resolvedSize() === 'xl'"
-    [class.lib-icon--2xl]="resolvedSize() === '2xl'"
+    class="mbiz-icon"
+    [class.mbiz-icon--xs]="resolvedSize() === 'xs'"
+    [class.mbiz-icon--s]="resolvedSize() === 's'"
+    [class.mbiz-icon--m]="resolvedSize() === 'm'"
+    [class.mbiz-icon--l]="resolvedSize() === 'l'"
+    [class.mbiz-icon--xl]="resolvedSize() === 'xl'"
+    [class.mbiz-icon--2xl]="resolvedSize() === '2xl'"
     [attr.role]="ariaLabel() ? 'img' : null"
     [attr.aria-label]="ariaLabel()"
     [attr.aria-hidden]="ariaLabel() ? null : 'true'"
@@ -36,7 +36,7 @@ import { IconService } from './icon.service';
   ></span>`,
   styles: [
     `
-      .lib-icon {
+      .mbiz-icon {
         display: inline-flex;
         align-items: center;
         justify-content: center;
@@ -44,32 +44,32 @@ import { IconService } from './icon.service';
         line-height: 0;
         color: inherit;
       }
-      .lib-icon svg {
+      .mbiz-icon svg {
         width: 100%;
         height: 100%;
         display: block;
       }
-      .lib-icon--xs {
+      .mbiz-icon--xs {
         width: 16px;
         height: 16px;
       }
-      .lib-icon--s {
+      .mbiz-icon--s {
         width: 20px;
         height: 20px;
       }
-      .lib-icon--m {
+      .mbiz-icon--m {
         width: 24px;
         height: 24px;
       }
-      .lib-icon--l {
+      .mbiz-icon--l {
         width: 28px;
         height: 28px;
       }
-      .lib-icon--xl {
+      .mbiz-icon--xl {
         width: 32px;
         height: 32px;
       }
-      .lib-icon--2xl {
+      .mbiz-icon--2xl {
         width: 40px;
         height: 40px;
       }
@@ -94,7 +94,7 @@ export class IconComponent {
     const registry = this.iconService?.registry ?? defaultIconRegistry;
     const def = registry.get(this.name());
     if (!def) {
-      console.warn(`[lib-icon] Unknown icon: "${this.name()}"`);
+      console.warn(`[mbiz-icon] Unknown icon: "${this.name()}"`);
       return '';
     }
 

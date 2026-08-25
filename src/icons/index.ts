@@ -2,6 +2,7 @@ import type { IconDefinition } from '../types';
 import { AboldBuildingIcon } from './abold_building';
 import { AboldCdIcon } from './abold_cd';
 import { AboldCardsIcon } from './abold_cards';
+import { AboldChainIcon } from './abold_chain';
 import { AboldChatIcon } from './abold_chat';
 import { AboldCoinUpIcon } from './abold_coin_up';
 import { AboldCreditIcon } from './abold_credit';
@@ -38,11 +39,13 @@ import { AlinearCardFocusIcon } from './alinear_card_focus';
 import { AlinearCardTransferIcon } from './alinear_card_transfer';
 import { AlinearCardViewIcon } from './alinear_card_view';
 import { AlinearCardsIcon } from './alinear_cards';
+import { AlinearChainIcon } from './alinear_chain';
 import { AlinearChangeAccountIcon } from './alinear_change_account';
 import { AlinearChatIcon } from './alinear_chat';
 import { AlinearClockIcon } from './alinear_clock';
 import { AlinearCodeIcon } from './alinear_code';
 import { AlinearCoinUpIcon } from './alinear_coin_up';
+import { AlinearCoinsIcon } from './alinear_coins';
 import { AlinearContractAddIcon } from './alinear_contract_add';
 import { AlinearCopyIcon } from './alinear_copy';
 import { AlinearCreditIcon } from './alinear_credit';
@@ -57,6 +60,7 @@ import { AlinearElectricityIcon } from './alinear_electricity';
 import { AlinearEmailIcon } from './alinear_email';
 import { AlinearExchangeIcon } from './alinear_exchange';
 import { AlinearExpandIcon } from './alinear_expand';
+import { AlinearFolderPlusIcon } from './alinear_folder_plus';
 import { AlinearFormManagementIcon } from './alinear_form_management';
 import { AlinearHandMoneyIcon } from './alinear_hand_money';
 import { AlinearHideIcon } from './alinear_hide';
@@ -66,7 +70,6 @@ import { AlinearInfoIcon } from './alinear_info';
 import { AlinearInsuranceIcon } from './alinear_insurance';
 import { AlinearJarIcon } from './alinear_jar';
 import { AlinearLeftIcon } from './alinear_left';
-import { AlinearList1Icon } from './alinear_list_1';
 import { AlinearListIcon } from './alinear_list';
 import { AlinearLoansIcon } from './alinear_loans';
 import { AlinearLockIcon } from './alinear_lock';
@@ -131,6 +134,7 @@ export {
   AboldBuildingIcon,
   AboldCdIcon,
   AboldCardsIcon,
+  AboldChainIcon,
   AboldChatIcon,
   AboldCoinUpIcon,
   AboldCreditIcon,
@@ -167,11 +171,13 @@ export {
   AlinearCardTransferIcon,
   AlinearCardViewIcon,
   AlinearCardsIcon,
+  AlinearChainIcon,
   AlinearChangeAccountIcon,
   AlinearChatIcon,
   AlinearClockIcon,
   AlinearCodeIcon,
   AlinearCoinUpIcon,
+  AlinearCoinsIcon,
   AlinearContractAddIcon,
   AlinearCopyIcon,
   AlinearCreditIcon,
@@ -186,6 +192,7 @@ export {
   AlinearEmailIcon,
   AlinearExchangeIcon,
   AlinearExpandIcon,
+  AlinearFolderPlusIcon,
   AlinearFormManagementIcon,
   AlinearHandMoneyIcon,
   AlinearHideIcon,
@@ -195,7 +202,6 @@ export {
   AlinearInsuranceIcon,
   AlinearJarIcon,
   AlinearLeftIcon,
-  AlinearList1Icon,
   AlinearListIcon,
   AlinearLoansIcon,
   AlinearLockIcon,
@@ -262,6 +268,7 @@ export const allIcons: IconDefinition[] = [
   AboldBuildingIcon,
   AboldCdIcon,
   AboldCardsIcon,
+  AboldChainIcon,
   AboldChatIcon,
   AboldCoinUpIcon,
   AboldCreditIcon,
@@ -298,11 +305,13 @@ export const allIcons: IconDefinition[] = [
   AlinearCardTransferIcon,
   AlinearCardViewIcon,
   AlinearCardsIcon,
+  AlinearChainIcon,
   AlinearChangeAccountIcon,
   AlinearChatIcon,
   AlinearClockIcon,
   AlinearCodeIcon,
   AlinearCoinUpIcon,
+  AlinearCoinsIcon,
   AlinearContractAddIcon,
   AlinearCopyIcon,
   AlinearCreditIcon,
@@ -317,6 +326,7 @@ export const allIcons: IconDefinition[] = [
   AlinearEmailIcon,
   AlinearExchangeIcon,
   AlinearExpandIcon,
+  AlinearFolderPlusIcon,
   AlinearFormManagementIcon,
   AlinearHandMoneyIcon,
   AlinearHideIcon,
@@ -326,7 +336,6 @@ export const allIcons: IconDefinition[] = [
   AlinearInsuranceIcon,
   AlinearJarIcon,
   AlinearLeftIcon,
-  AlinearList1Icon,
   AlinearListIcon,
   AlinearLoansIcon,
   AlinearLockIcon,
