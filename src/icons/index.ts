@@ -5,7 +5,6 @@ import { AboldCardsIcon } from './abold_cards';
 import { AboldChainIcon } from './abold_chain';
 import { AboldChatIcon } from './abold_chat';
 import { AboldCoinUpIcon } from './abold_coin_up';
-import { AboldCreditIcon } from './abold_credit';
 import { AboldDocumentsIcon } from './abold_documents';
 import { AboldErrorIcon } from './abold_error';
 import { AboldFolderIcon } from './abold_folder';
@@ -49,7 +48,6 @@ import { AlinearCoinUpIcon } from './alinear_coin_up';
 import { AlinearCoinsIcon } from './alinear_coins';
 import { AlinearContractAddIcon } from './alinear_contract_add';
 import { AlinearCopyIcon } from './alinear_copy';
-import { AlinearCreditIcon } from './alinear_credit';
 import { AlinearDocDownloadIcon } from './alinear_doc_download';
 import { AlinearDocSearchIcon } from './alinear_doc_search';
 import { AlinearDocumentsIcon } from './alinear_documents';
@@ -139,7 +137,6 @@ export {
   AboldChainIcon,
   AboldChatIcon,
   AboldCoinUpIcon,
-  AboldCreditIcon,
   AboldDocumentsIcon,
   AboldErrorIcon,
   AboldFolderIcon,
@@ -183,7 +180,6 @@ export {
   AlinearCoinsIcon,
   AlinearContractAddIcon,
   AlinearCopyIcon,
-  AlinearCreditIcon,
   AlinearDocDownloadIcon,
   AlinearDocSearchIcon,
   AlinearDocumentsIcon,
@@ -275,7 +271,6 @@ export const allIcons: IconDefinition[] = [
   AboldChainIcon,
   AboldChatIcon,
   AboldCoinUpIcon,
-  AboldCreditIcon,
   AboldDocumentsIcon,
   AboldErrorIcon,
   AboldFolderIcon,
@@ -319,7 +314,6 @@ export const allIcons: IconDefinition[] = [
   AlinearCoinsIcon,
   AlinearContractAddIcon,
   AlinearCopyIcon,
-  AlinearCreditIcon,
   AlinearDocDownloadIcon,
   AlinearDocSearchIcon,
   AlinearDocumentsIcon,

@@ -42,13 +42,6 @@
     "category": "abold_coin_up"
   },
   {
-    "name": "abold_credit",
-    "file": "ABold_Credit.svg",
-    "exportName": "AboldCreditIcon",
-    "viewBox": "0 0 32 32",
-    "category": "abold_credit"
-  },
-  {
     "name": "abold_documents",
     "file": "ABold_Documents.svg",
     "exportName": "AboldDocumentsIcon",
@@ -348,13 +341,6 @@
     "exportName": "AlinearCopyIcon",
     "viewBox": "0 0 32 32",
     "category": "alinear_copy"
-  },
-  {
-    "name": "alinear_credit",
-    "file": "ALinear_Credit.svg",
-    "exportName": "AlinearCreditIcon",
-    "viewBox": "0 0 32 32",
-    "category": "alinear_credit"
   },
   {
     "name": "alinear_doc_download",
