@@ -8,6 +8,7 @@ import { AboldCoinUpIcon } from './abold_coin_up';
 import { AboldCreditIcon } from './abold_credit';
 import { AboldDocumentsIcon } from './abold_documents';
 import { AboldErrorIcon } from './abold_error';
+import { AboldFolderIcon } from './abold_folder';
 import { AboldHierachyIcon } from './abold_hierachy';
 import { AboldHomeIcon } from './abold_home';
 import { AboldInfoIcon } from './abold_info';
@@ -60,6 +61,7 @@ import { AlinearElectricityIcon } from './alinear_electricity';
 import { AlinearEmailIcon } from './alinear_email';
 import { AlinearExchangeIcon } from './alinear_exchange';
 import { AlinearExpandIcon } from './alinear_expand';
+import { AlinearFolderIcon } from './alinear_folder';
 import { AlinearFolderPlusIcon } from './alinear_folder_plus';
 import { AlinearFormManagementIcon } from './alinear_form_management';
 import { AlinearHandMoneyIcon } from './alinear_hand_money';
@@ -140,6 +142,7 @@ export {
   AboldCreditIcon,
   AboldDocumentsIcon,
   AboldErrorIcon,
+  AboldFolderIcon,
   AboldHierachyIcon,
   AboldHomeIcon,
   AboldInfoIcon,
@@ -192,6 +195,7 @@ export {
   AlinearEmailIcon,
   AlinearExchangeIcon,
   AlinearExpandIcon,
+  AlinearFolderIcon,
   AlinearFolderPlusIcon,
   AlinearFormManagementIcon,
   AlinearHandMoneyIcon,
@@ -274,6 +278,7 @@ export const allIcons: IconDefinition[] = [
   AboldCreditIcon,
   AboldDocumentsIcon,
   AboldErrorIcon,
+  AboldFolderIcon,
   AboldHierachyIcon,
   AboldHomeIcon,
   AboldInfoIcon,
@@ -326,6 +331,7 @@ export const allIcons: IconDefinition[] = [
   AlinearEmailIcon,
   AlinearExchangeIcon,
   AlinearExpandIcon,
+  AlinearFolderIcon,
   AlinearFolderPlusIcon,
   AlinearFormManagementIcon,
   AlinearHandMoneyIcon,

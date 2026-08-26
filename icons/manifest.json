@@ -63,6 +63,13 @@
     "category": "abold_error"
   },
   {
+    "name": "abold_folder",
+    "file": "ABold_Folder.svg",
+    "exportName": "AboldFolderIcon",
+    "viewBox": "0 0 24 24",
+    "category": "abold_folder"
+  },
+  {
     "name": "abold_hierachy",
     "file": "ABold_Hierachy.svg",
     "exportName": "AboldHierachyIcon",
@@ -425,6 +432,13 @@
     "exportName": "AlinearExpandIcon",
     "viewBox": "0 0 32 32",
     "category": "alinear_expand"
+  },
+  {
+    "name": "alinear_folder",
+    "file": "ALinear_Folder.svg",
+    "exportName": "AlinearFolderIcon",
+    "viewBox": "0 0 24 24",
+    "category": "alinear_folder"
   },
   {
     "name": "alinear_folder_plus",
