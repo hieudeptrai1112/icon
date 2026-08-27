@@ -168,6 +168,20 @@
     "category": "alinear_add_paper"
   },
   {
+    "name": "alinear_arrow_in",
+    "file": "ALinear_Arrow_In.svg",
+    "exportName": "AlinearArrowInIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_arrow_in"
+  },
+  {
+    "name": "alinear_arrow_out",
+    "file": "ALinear_Arrow_Out.svg",
+    "exportName": "AlinearArrowOutIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_arrow_out"
+  },
+  {
     "name": "alinear_auto_bill",
     "file": "ALinear_Auto_Bill.svg",
     "exportName": "AlinearAutoBillIcon",
@@ -348,6 +362,13 @@
     "exportName": "AlinearDocDownloadIcon",
     "viewBox": "0 0 32 32",
     "category": "alinear_doc_download"
+  },
+  {
+    "name": "alinear_doc_info",
+    "file": "ALinear_Doc_Info.svg",
+    "exportName": "AlinearDocInfoIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_doc_info"
   },
   {
     "name": "alinear_doc_search",

@@ -23,6 +23,8 @@ import { AboldWarningIcon } from './abold_warning';
 import { AlinearAddIcon } from './alinear_add';
 import { AlinearAddCardIcon } from './alinear_add_card';
 import { AlinearAddPaperIcon } from './alinear_add_paper';
+import { AlinearArrowInIcon } from './alinear_arrow_in';
+import { AlinearArrowOutIcon } from './alinear_arrow_out';
 import { AlinearAutoBillIcon } from './alinear_auto_bill';
 import { AlinearBiometricIcon } from './alinear_biometric';
 import { AlinearBoardPercentageIcon } from './alinear_board_percentage';
@@ -49,6 +51,7 @@ import { AlinearCoinsIcon } from './alinear_coins';
 import { AlinearContractAddIcon } from './alinear_contract_add';
 import { AlinearCopyIcon } from './alinear_copy';
 import { AlinearDocDownloadIcon } from './alinear_doc_download';
+import { AlinearDocInfoIcon } from './alinear_doc_info';
 import { AlinearDocSearchIcon } from './alinear_doc_search';
 import { AlinearDocumentsIcon } from './alinear_documents';
 import { AlinearDownIcon } from './alinear_down';
@@ -155,6 +158,8 @@ export {
   AlinearAddIcon,
   AlinearAddCardIcon,
   AlinearAddPaperIcon,
+  AlinearArrowInIcon,
+  AlinearArrowOutIcon,
   AlinearAutoBillIcon,
   AlinearBiometricIcon,
   AlinearBoardPercentageIcon,
@@ -181,6 +186,7 @@ export {
   AlinearContractAddIcon,
   AlinearCopyIcon,
   AlinearDocDownloadIcon,
+  AlinearDocInfoIcon,
   AlinearDocSearchIcon,
   AlinearDocumentsIcon,
   AlinearDownIcon,
@@ -289,6 +295,8 @@ export const allIcons: IconDefinition[] = [
   AlinearAddIcon,
   AlinearAddCardIcon,
   AlinearAddPaperIcon,
+  AlinearArrowInIcon,
+  AlinearArrowOutIcon,
   AlinearAutoBillIcon,
   AlinearBiometricIcon,
   AlinearBoardPercentageIcon,
@@ -315,6 +323,7 @@ export const allIcons: IconDefinition[] = [
   AlinearContractAddIcon,
   AlinearCopyIcon,
   AlinearDocDownloadIcon,
+  AlinearDocInfoIcon,
   AlinearDocSearchIcon,
   AlinearDocumentsIcon,
   AlinearDownIcon,
