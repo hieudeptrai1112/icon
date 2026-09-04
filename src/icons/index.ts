@@ -21,7 +21,6 @@ import { AboldSuccessIcon } from './abold_success';
 import { AboldWalletIcon } from './abold_wallet';
 import { AboldWarningIcon } from './abold_warning';
 import { AlinearAddIcon } from './alinear_add';
-import { AlinearAddBillIcon } from './alinear_add_bill';
 import { AlinearAddCardIcon } from './alinear_add_card';
 import { AlinearAddPaperIcon } from './alinear_add_paper';
 import { AlinearArrowInIcon } from './alinear_arrow_in';
@@ -157,7 +156,6 @@ export {
   AboldWalletIcon,
   AboldWarningIcon,
   AlinearAddIcon,
-  AlinearAddBillIcon,
   AlinearAddCardIcon,
   AlinearAddPaperIcon,
   AlinearArrowInIcon,
@@ -295,7 +293,6 @@ export const allIcons: IconDefinition[] = [
   AboldWalletIcon,
   AboldWarningIcon,
   AlinearAddIcon,
-  AlinearAddBillIcon,
   AlinearAddCardIcon,
   AlinearAddPaperIcon,
   AlinearArrowInIcon,

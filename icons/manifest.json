@@ -154,13 +154,6 @@
     "category": "alinear_add"
   },
   {
-    "name": "alinear_add_bill",
-    "file": "ALinear_Add_Bill.svg",
-    "exportName": "AlinearAddBillIcon",
-    "viewBox": "0 0 32 32",
-    "category": "alinear_add_bill"
-  },
-  {
     "name": "alinear_add_card",
     "file": "ALinear_Add_Card.svg",
     "exportName": "AlinearAddCardIcon",
