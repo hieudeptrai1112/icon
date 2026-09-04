@@ -154,6 +154,13 @@
     "category": "alinear_add"
   },
   {
+    "name": "alinear_add_bill",
+    "file": "ALinear_Add_Bill.svg",
+    "exportName": "AlinearAddBillIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_add_bill"
+  },
+  {
     "name": "alinear_add_card",
     "file": "ALinear_Add_Card.svg",
     "exportName": "AlinearAddCardIcon",
@@ -810,6 +817,13 @@
     "exportName": "AlinearTrashIcon",
     "viewBox": "0 0 32 32",
     "category": "alinear_trash"
+  },
+  {
+    "name": "alinear_unlock",
+    "file": "ALinear_Unlock.svg",
+    "exportName": "AlinearUnlockIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_unlock"
   },
   {
     "name": "alinear_up",
