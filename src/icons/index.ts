@@ -52,7 +52,6 @@ import { AlinearContractAddIcon } from './alinear_contract_add';
 import { AlinearCopyIcon } from './alinear_copy';
 import { AlinearDocDownloadIcon } from './alinear_doc_download';
 import { AlinearDocInfoIcon } from './alinear_doc_info';
-import { AlinearDocSearchIcon } from './alinear_doc_search';
 import { AlinearDocumentsIcon } from './alinear_documents';
 import { AlinearDownIcon } from './alinear_down';
 import { AlinearDownloadIcon } from './alinear_download';
@@ -187,7 +186,6 @@ export {
   AlinearCopyIcon,
   AlinearDocDownloadIcon,
   AlinearDocInfoIcon,
-  AlinearDocSearchIcon,
   AlinearDocumentsIcon,
   AlinearDownIcon,
   AlinearDownloadIcon,
@@ -324,7 +322,6 @@ export const allIcons: IconDefinition[] = [
   AlinearCopyIcon,
   AlinearDocDownloadIcon,
   AlinearDocInfoIcon,
-  AlinearDocSearchIcon,
   AlinearDocumentsIcon,
   AlinearDownIcon,
   AlinearDownloadIcon,

@@ -371,13 +371,6 @@
     "category": "alinear_doc_info"
   },
   {
-    "name": "alinear_doc_search",
-    "file": "ALinear_Doc_Search.svg",
-    "exportName": "AlinearDocSearchIcon",
-    "viewBox": "0 0 32 32",
-    "category": "alinear_doc_search"
-  },
-  {
     "name": "alinear_documents",
     "file": "ALinear_Documents.svg",
     "exportName": "AlinearDocumentsIcon",
