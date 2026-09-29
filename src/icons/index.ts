@@ -26,6 +26,7 @@ import { AlinearAddPaperIcon } from './alinear_add_paper';
 import { AlinearArrowInIcon } from './alinear_arrow_in';
 import { AlinearArrowOutIcon } from './alinear_arrow_out';
 import { AlinearAutoBillIcon } from './alinear_auto_bill';
+import { AlinearBankIcon } from './alinear_bank';
 import { AlinearBiometricIcon } from './alinear_biometric';
 import { AlinearBoardPercentageIcon } from './alinear_board_percentage';
 import { AlinearBoatIcon } from './alinear_boat';
@@ -161,6 +162,7 @@ export {
   AlinearArrowInIcon,
   AlinearArrowOutIcon,
   AlinearAutoBillIcon,
+  AlinearBankIcon,
   AlinearBiometricIcon,
   AlinearBoardPercentageIcon,
   AlinearBoatIcon,
@@ -298,6 +300,7 @@ export const allIcons: IconDefinition[] = [
   AlinearArrowInIcon,
   AlinearArrowOutIcon,
   AlinearAutoBillIcon,
+  AlinearBankIcon,
   AlinearBiometricIcon,
   AlinearBoardPercentageIcon,
   AlinearBoatIcon,

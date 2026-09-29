@@ -189,6 +189,13 @@
     "category": "alinear_auto_bill"
   },
   {
+    "name": "alinear_bank",
+    "file": "ALinear_Bank.svg",
+    "exportName": "AlinearBankIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_bank"
+  },
+  {
     "name": "alinear_biometric",
     "file": "ALinear_Biometric.svg",
     "exportName": "AlinearBiometricIcon",
