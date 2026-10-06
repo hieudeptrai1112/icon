@@ -1,6 +1,6 @@
 {
   "name": "@mbbiz/icon",
-  "version": "0.1.17",
+  "version": "0.1.18",
   "description": "SVG icon library — no IcoMoon, no Ant Design icons.",
   "license": "MIT",
   "type": "module",

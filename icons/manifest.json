@@ -147,6 +147,13 @@
     "category": "abold_warning"
   },
   {
+    "name": "abold_sack",
+    "file": "ABold_sack.svg",
+    "exportName": "AboldSackIcon",
+    "viewBox": "0 0 32 32",
+    "category": "abold_sack"
+  },
+  {
     "name": "alinear_add",
     "file": "ALinear_Add.svg",
     "exportName": "AlinearAddIcon",
@@ -894,6 +901,13 @@
     "exportName": "AlinearWithdrawalIcon",
     "viewBox": "0 0 32 32",
     "category": "alinear_withdrawal"
+  },
+  {
+    "name": "alinear_sack",
+    "file": "ALinear_sack.svg",
+    "exportName": "AlinearSackIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_sack"
   },
   {
     "name": "action_close",

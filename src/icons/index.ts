@@ -20,6 +20,7 @@ import { AboldSettingsIcon } from './abold_settings';
 import { AboldSuccessIcon } from './abold_success';
 import { AboldWalletIcon } from './abold_wallet';
 import { AboldWarningIcon } from './abold_warning';
+import { AboldSackIcon } from './abold_sack';
 import { AlinearAddIcon } from './alinear_add';
 import { AlinearAddCardIcon } from './alinear_add_card';
 import { AlinearAddPaperIcon } from './alinear_add_paper';
@@ -127,6 +128,7 @@ import { AlinearWalletInIcon } from './alinear_wallet_in';
 import { AlinearWaterIcon } from './alinear_water';
 import { AlinearWifiIcon } from './alinear_wifi';
 import { AlinearWithdrawalIcon } from './alinear_withdrawal';
+import { AlinearSackIcon } from './alinear_sack';
 import { ActionCloseIcon } from './action_close';
 import { ActionEditIcon } from './action_edit';
 import { ActionPlusIcon } from './action_plus';
@@ -156,6 +158,7 @@ export {
   AboldSuccessIcon,
   AboldWalletIcon,
   AboldWarningIcon,
+  AboldSackIcon,
   AlinearAddIcon,
   AlinearAddCardIcon,
   AlinearAddPaperIcon,
@@ -263,6 +266,7 @@ export {
   AlinearWaterIcon,
   AlinearWifiIcon,
   AlinearWithdrawalIcon,
+  AlinearSackIcon,
   ActionCloseIcon,
   ActionEditIcon,
   ActionPlusIcon,
@@ -294,6 +298,7 @@ export const allIcons: IconDefinition[] = [
   AboldSuccessIcon,
   AboldWalletIcon,
   AboldWarningIcon,
+  AboldSackIcon,
   AlinearAddIcon,
   AlinearAddCardIcon,
   AlinearAddPaperIcon,
@@ -401,6 +406,7 @@ export const allIcons: IconDefinition[] = [
   AlinearWaterIcon,
   AlinearWifiIcon,
   AlinearWithdrawalIcon,
+  AlinearSackIcon,
   ActionCloseIcon,
   ActionEditIcon,
   ActionPlusIcon,
