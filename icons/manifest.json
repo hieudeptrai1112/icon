@@ -154,6 +154,13 @@
     "category": "abold_sack"
   },
   {
+    "name": "alinear_accounting",
+    "file": "ALinear_Accounting.svg",
+    "exportName": "AlinearAccountingIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_accounting"
+  },
+  {
     "name": "alinear_add",
     "file": "ALinear_Add.svg",
     "exportName": "AlinearAddIcon",
@@ -712,6 +719,13 @@
     "exportName": "AlinearReceiveIcon",
     "viewBox": "0 0 32 32",
     "category": "alinear_receive"
+  },
+  {
+    "name": "alinear_representative",
+    "file": "ALinear_Representative.svg",
+    "exportName": "AlinearRepresentativeIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_representative"
   },
   {
     "name": "alinear_reverse_setting",

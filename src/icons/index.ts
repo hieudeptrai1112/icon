@@ -21,6 +21,7 @@ import { AboldSuccessIcon } from './abold_success';
 import { AboldWalletIcon } from './abold_wallet';
 import { AboldWarningIcon } from './abold_warning';
 import { AboldSackIcon } from './abold_sack';
+import { AlinearAccountingIcon } from './alinear_accounting';
 import { AlinearAddIcon } from './alinear_add';
 import { AlinearAddCardIcon } from './alinear_add_card';
 import { AlinearAddPaperIcon } from './alinear_add_paper';
@@ -101,6 +102,7 @@ import { AlinearProfileIcon } from './alinear_profile';
 import { AlinearQrIcon } from './alinear_qr';
 import { AlinearQuickQrIcon } from './alinear_quick_qr';
 import { AlinearReceiveIcon } from './alinear_receive';
+import { AlinearRepresentativeIcon } from './alinear_representative';
 import { AlinearReverseSettingIcon } from './alinear_reverse_setting';
 import { AlinearRightIcon } from './alinear_right';
 import { AlinearScfIcon } from './alinear_scf';
@@ -159,6 +161,7 @@ export {
   AboldWalletIcon,
   AboldWarningIcon,
   AboldSackIcon,
+  AlinearAccountingIcon,
   AlinearAddIcon,
   AlinearAddCardIcon,
   AlinearAddPaperIcon,
@@ -239,6 +242,7 @@ export {
   AlinearQrIcon,
   AlinearQuickQrIcon,
   AlinearReceiveIcon,
+  AlinearRepresentativeIcon,
   AlinearReverseSettingIcon,
   AlinearRightIcon,
   AlinearScfIcon,
@@ -299,6 +303,7 @@ export const allIcons: IconDefinition[] = [
   AboldWalletIcon,
   AboldWarningIcon,
   AboldSackIcon,
+  AlinearAccountingIcon,
   AlinearAddIcon,
   AlinearAddCardIcon,
   AlinearAddPaperIcon,
@@ -379,6 +384,7 @@ export const allIcons: IconDefinition[] = [
   AlinearQrIcon,
   AlinearQuickQrIcon,
   AlinearReceiveIcon,
+  AlinearRepresentativeIcon,
   AlinearReverseSettingIcon,
   AlinearRightIcon,
   AlinearScfIcon,
