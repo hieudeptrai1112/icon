@@ -364,6 +364,13 @@
     "category": "alinear_coins"
   },
   {
+    "name": "alinear_consult",
+    "file": "ALinear_Consult.svg",
+    "exportName": "AlinearConsultIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_consult"
+  },
+  {
     "name": "alinear_contract_add",
     "file": "ALinear_Contract_Add.svg",
     "exportName": "AlinearContractAddIcon",
@@ -376,6 +383,13 @@
     "exportName": "AlinearCopyIcon",
     "viewBox": "0 0 32 32",
     "category": "alinear_copy"
+  },
+  {
+    "name": "alinear_doc_checked",
+    "file": "ALinear_Doc_Checked.svg",
+    "exportName": "AlinearDocCheckedIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_doc_checked"
   },
   {
     "name": "alinear_doc_download",
@@ -560,11 +574,32 @@
     "category": "alinear_logout"
   },
   {
+    "name": "alinear_mail_in",
+    "file": "ALinear_Mail_In.svg",
+    "exportName": "AlinearMailInIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_mail_in"
+  },
+  {
+    "name": "alinear_mail_out",
+    "file": "ALinear_Mail_Out.svg",
+    "exportName": "AlinearMailOutIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_mail_out"
+  },
+  {
     "name": "alinear_manage",
     "file": "ALinear_Manage.svg",
     "exportName": "AlinearManageIcon",
     "viewBox": "0 0 32 32",
     "category": "alinear_manage"
+  },
+  {
+    "name": "alinear_manual",
+    "file": "ALinear_Manual.svg",
+    "exportName": "AlinearManualIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_manual"
   },
   {
     "name": "alinear_menu_1",
@@ -658,6 +693,13 @@
     "category": "alinear_payment_transfer"
   },
   {
+    "name": "alinear_pencil",
+    "file": "ALinear_Pencil.svg",
+    "exportName": "AlinearPencilIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_pencil"
+  },
+  {
     "name": "alinear_phone_1",
     "file": "ALinear_Phone-1.svg",
     "exportName": "AlinearPhone1Icon",
@@ -670,6 +712,13 @@
     "exportName": "AlinearPhoneIcon",
     "viewBox": "0 0 32 32",
     "category": "alinear_phone"
+  },
+  {
+    "name": "alinear_piechart",
+    "file": "ALinear_PieChart.svg",
+    "exportName": "AlinearPiechartIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_piechart"
   },
   {
     "name": "alinear_plane",

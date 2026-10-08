@@ -1,0 +1,8 @@
+import type { IconDefinition } from '../types';
+
+export const AlinearPiechartIcon: IconDefinition = {
+  name: "alinear_piechart",
+  viewBox: "0 0 32 32",
+  svg: "<path d=\"M11.9998 13.6848V4.70665C6.43396 6.66357 3.12377 12.3838 4.20032 18.1845L11.9998 13.6848ZM15.9998 3.99927V16.055L5.65327 22.0788C8.59774 27.0896 14.7098 29.2701 20.1609 27.2545C25.6121 25.2389 28.8353 19.6066 27.8116 13.8856C26.7879 8.1646 21.8116 3.99951 15.9998 3.99927Z\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke=\"currentColor\"/>",
+  category: "alinear_piechart",
+};

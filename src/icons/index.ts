@@ -51,8 +51,10 @@ import { AlinearClockIcon } from './alinear_clock';
 import { AlinearCodeIcon } from './alinear_code';
 import { AlinearCoinUpIcon } from './alinear_coin_up';
 import { AlinearCoinsIcon } from './alinear_coins';
+import { AlinearConsultIcon } from './alinear_consult';
 import { AlinearContractAddIcon } from './alinear_contract_add';
 import { AlinearCopyIcon } from './alinear_copy';
+import { AlinearDocCheckedIcon } from './alinear_doc_checked';
 import { AlinearDocDownloadIcon } from './alinear_doc_download';
 import { AlinearDocInfoIcon } from './alinear_doc_info';
 import { AlinearDocumentsIcon } from './alinear_documents';
@@ -79,7 +81,10 @@ import { AlinearListIcon } from './alinear_list';
 import { AlinearLoansIcon } from './alinear_loans';
 import { AlinearLockIcon } from './alinear_lock';
 import { AlinearLogoutIcon } from './alinear_logout';
+import { AlinearMailInIcon } from './alinear_mail_in';
+import { AlinearMailOutIcon } from './alinear_mail_out';
 import { AlinearManageIcon } from './alinear_manage';
+import { AlinearManualIcon } from './alinear_manual';
 import { AlinearMenu1Icon } from './alinear_menu_1';
 import { AlinearMenu2Icon } from './alinear_menu_2';
 import { AlinearMissionIcon } from './alinear_mission';
@@ -93,8 +98,10 @@ import { AlinearNumberIcon } from './alinear_number';
 import { AlinearOnOffIcon } from './alinear_on_off';
 import { AlinearPaperCloudIcon } from './alinear_paper_cloud';
 import { AlinearPaymentTransferIcon } from './alinear_payment_transfer';
+import { AlinearPencilIcon } from './alinear_pencil';
 import { AlinearPhone1Icon } from './alinear_phone_1';
 import { AlinearPhoneIcon } from './alinear_phone';
+import { AlinearPiechartIcon } from './alinear_piechart';
 import { AlinearPlaneIcon } from './alinear_plane';
 import { AlinearPlaneHomeIcon } from './alinear_plane_home';
 import { AlinearPrinterIcon } from './alinear_printer';
@@ -191,8 +198,10 @@ export {
   AlinearCodeIcon,
   AlinearCoinUpIcon,
   AlinearCoinsIcon,
+  AlinearConsultIcon,
   AlinearContractAddIcon,
   AlinearCopyIcon,
+  AlinearDocCheckedIcon,
   AlinearDocDownloadIcon,
   AlinearDocInfoIcon,
   AlinearDocumentsIcon,
@@ -219,7 +228,10 @@ export {
   AlinearLoansIcon,
   AlinearLockIcon,
   AlinearLogoutIcon,
+  AlinearMailInIcon,
+  AlinearMailOutIcon,
   AlinearManageIcon,
+  AlinearManualIcon,
   AlinearMenu1Icon,
   AlinearMenu2Icon,
   AlinearMissionIcon,
@@ -233,8 +245,10 @@ export {
   AlinearOnOffIcon,
   AlinearPaperCloudIcon,
   AlinearPaymentTransferIcon,
+  AlinearPencilIcon,
   AlinearPhone1Icon,
   AlinearPhoneIcon,
+  AlinearPiechartIcon,
   AlinearPlaneIcon,
   AlinearPlaneHomeIcon,
   AlinearPrinterIcon,
@@ -333,8 +347,10 @@ export const allIcons: IconDefinition[] = [
   AlinearCodeIcon,
   AlinearCoinUpIcon,
   AlinearCoinsIcon,
+  AlinearConsultIcon,
   AlinearContractAddIcon,
   AlinearCopyIcon,
+  AlinearDocCheckedIcon,
   AlinearDocDownloadIcon,
   AlinearDocInfoIcon,
   AlinearDocumentsIcon,
@@ -361,7 +377,10 @@ export const allIcons: IconDefinition[] = [
   AlinearLoansIcon,
   AlinearLockIcon,
   AlinearLogoutIcon,
+  AlinearMailInIcon,
+  AlinearMailOutIcon,
   AlinearManageIcon,
+  AlinearManualIcon,
   AlinearMenu1Icon,
   AlinearMenu2Icon,
   AlinearMissionIcon,
@@ -375,8 +394,10 @@ export const allIcons: IconDefinition[] = [
   AlinearOnOffIcon,
   AlinearPaperCloudIcon,
   AlinearPaymentTransferIcon,
+  AlinearPencilIcon,
   AlinearPhone1Icon,
   AlinearPhoneIcon,
+  AlinearPiechartIcon,
   AlinearPlaneIcon,
   AlinearPlaneHomeIcon,
   AlinearPrinterIcon,
