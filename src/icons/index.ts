@@ -44,6 +44,7 @@ import { AlinearCardFocusIcon } from './alinear_card_focus';
 import { AlinearCardTransferIcon } from './alinear_card_transfer';
 import { AlinearCardViewIcon } from './alinear_card_view';
 import { AlinearCardsIcon } from './alinear_cards';
+import { AlinearCellphoneIcon } from './alinear_cellphone';
 import { AlinearChainIcon } from './alinear_chain';
 import { AlinearChangeAccountIcon } from './alinear_change_account';
 import { AlinearChatIcon } from './alinear_chat';
@@ -69,6 +70,7 @@ import { AlinearExpandIcon } from './alinear_expand';
 import { AlinearFolderIcon } from './alinear_folder';
 import { AlinearFolderPlusIcon } from './alinear_folder_plus';
 import { AlinearFormManagementIcon } from './alinear_form_management';
+import { AlinearGiftIcon } from './alinear_gift';
 import { AlinearHandMoneyIcon } from './alinear_hand_money';
 import { AlinearHideIcon } from './alinear_hide';
 import { AlinearHierachyIcon } from './alinear_hierachy';
@@ -191,6 +193,7 @@ export {
   AlinearCardTransferIcon,
   AlinearCardViewIcon,
   AlinearCardsIcon,
+  AlinearCellphoneIcon,
   AlinearChainIcon,
   AlinearChangeAccountIcon,
   AlinearChatIcon,
@@ -216,6 +219,7 @@ export {
   AlinearFolderIcon,
   AlinearFolderPlusIcon,
   AlinearFormManagementIcon,
+  AlinearGiftIcon,
   AlinearHandMoneyIcon,
   AlinearHideIcon,
   AlinearHierachyIcon,
@@ -340,6 +344,7 @@ export const allIcons: IconDefinition[] = [
   AlinearCardTransferIcon,
   AlinearCardViewIcon,
   AlinearCardsIcon,
+  AlinearCellphoneIcon,
   AlinearChainIcon,
   AlinearChangeAccountIcon,
   AlinearChatIcon,
@@ -365,6 +370,7 @@ export const allIcons: IconDefinition[] = [
   AlinearFolderIcon,
   AlinearFolderPlusIcon,
   AlinearFormManagementIcon,
+  AlinearGiftIcon,
   AlinearHandMoneyIcon,
   AlinearHideIcon,
   AlinearHierachyIcon,

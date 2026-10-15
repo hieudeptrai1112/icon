@@ -315,6 +315,13 @@
     "category": "alinear_cards"
   },
   {
+    "name": "alinear_cellphone",
+    "file": "ALinear_Cellphone.svg",
+    "exportName": "AlinearCellphoneIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_cellphone"
+  },
+  {
     "name": "alinear_chain",
     "file": "ALinear_Chain.svg",
     "exportName": "AlinearChainIcon",
@@ -488,6 +495,13 @@
     "exportName": "AlinearFormManagementIcon",
     "viewBox": "0 0 32 32",
     "category": "alinear_form_management"
+  },
+  {
+    "name": "alinear_gift",
+    "file": "ALinear_Gift.svg",
+    "exportName": "AlinearGiftIcon",
+    "viewBox": "0 0 32 32",
+    "category": "alinear_gift"
   },
   {
     "name": "alinear_hand_money",
